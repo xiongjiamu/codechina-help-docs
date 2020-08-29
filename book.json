@@ -1,0 +1,35 @@
+{
+"plugins" : [ 
+        "favicon",
+        "back-to-top-button",
+        "popup",
+        "theme-fexa"
+    ],
+    "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":".",
+                    "target":"_blank",
+                    "name": "CODEChina Issue"
+                }
+            ]
+        }
+    },
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "/docs/img/logo-s.png",
+            "bookmark": "/docs/img/logo-s.png",
+            "appleTouch": "/docs/img/logo-s.png",
+            "appleTouchMore": {
+                "120x120": "",
+                "180x180": "/docs/img/logo-s.png"
+            }
+        },
+        "theme-fexa":{
+            "search-placeholder":"输入关键字搜索",
+            "logo":"/docs/img/logo.png", 
+            "favicon": ""
+        }
+    }
+}
