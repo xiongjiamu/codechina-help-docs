@@ -1,17 +1,29 @@
 {
+"title" : "CODEChina帮助文档",
+"author" : "Miykael",
+"description" : "CODEChina开源社区用户使用及帮助文档",
+"language" : "zh-hans",
+"links" : {
+    "sidebar" : {
+        
+    }
+},
 "plugins" : [ 
         "favicon",
         "back-to-top-button",
         "popup",
-        "theme-fexa"
+        "theme-fexa",
+        "-sharing", 
+        "sharing-plus",
+        "tbfed-pagefooter"
     ],
     "variables": {
         "themeFexa":{
             "nav":[
                 {
-                    "url":".",
+                    "url":"/",
                     "target":"_blank",
-                    "name": "CODEChina Issue"
+                    "name": "开始使用"
                 }
             ]
         }
@@ -29,7 +41,26 @@
         "theme-fexa":{
             "search-placeholder":"输入关键字搜索",
             "logo":"/docs/img/logo.png", 
-            "favicon": ""
+            "favicon": "",
+            "url":"/"
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": false,
+            "qq": true,
+            "qzone": true,
+            "twitter": false,
+            "weibo": true,
+         "all": [
+              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+              "messenger","qq", "qzone","viber","whatsapp"
+          ]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy CODECHINA 2020",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 }
