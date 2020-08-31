@@ -16,7 +16,10 @@
         "-sharing", 
         "sharing-plus",
         "tbfed-pagefooter",
-        "chapter-fold"
+        "chapter-fold",
+        "-lunr", 
+        "-search", 
+        "search-pro"
     ],
     "variables": {
         "themeFexa":{
