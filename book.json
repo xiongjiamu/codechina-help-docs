@@ -15,7 +15,8 @@
         "theme-fexa",
         "-sharing", 
         "sharing-plus",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "chapter-fold"
     ],
     "variables": {
         "themeFexa":{
