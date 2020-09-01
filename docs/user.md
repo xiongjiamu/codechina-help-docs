@@ -1,143 +1,62 @@
-# 用户文档[](#用户文档 "Permalink")
+# 用户文档[](#user "Permalink")
 
-欢迎来到 GitLab！ 我们很高兴您在这里！
+欢迎您开始使用CODEChina作为您的项目/开源项目代码托管平台！
 
-作为 GitLab 用户，您将有权访问您的[订阅](https://about.gitlab.com/pricing/)包括的所有功能，但[GitLab 管理员](../administration/index.html)设置除外，除非您具有安装，配置和升级 GitLab 实例的管理员权限.
+CODEChina 是一个基于 Git 的平台，它集成了许多用于软件开发和部署以及项目管理的基本工具：
 
-[GitLab.com 的](https://gitlab.com/)管理员特权仅限于 GitLab 团队.
+*   通过版本控制在代码仓库中托管代码
+*   使用功能齐全的[Issues](/project/issues#issues-list)跟踪有关新功能开发、错误报告及反馈的建议
+*   组织和管理Issue(/project/issues#issue-boards)优先次序
+*   使用Review Apps查看[合并请求](/project/merge_requests)中每个分支中更改的代码并实时预览
+*   使用内置的CI/CD构建，测试和部署
+*   使用Pages部署个人/专业静态网站
+*   通过使用容器注册表与 Docker 集成
+*   通过使用价值流分析跟踪开发生命周期
+*   提供[服务台](/project/service_desk)支持
 
-有关配置 GitLab 自管理实例的更多信息，请参阅[管理员文档](../administration/index.html) .
+## 项目[](#project "Permalink")
 
-## Overview[](#overview "Permalink")
+您可以创建[项目](project)来托管代码，跟踪问题，在代码上进行协作。或者，您可以在一个项目中完成下列所有操作：
 
-GitLab 是一个完全集成的软件开发平台，使您的团队能够在同一平台上保持透明，快速，有效和凝聚力，从讨论新想法到正式生产.
+*   [代码仓库](/project/repo.md) ：将[代码库](/project/repo)托管在具有版本控制的存储库中，并作为完全集成平台的一部分
+*   [Issues](/project/issues) ：探索 Issue
+*   [合并请求](/project/merge_requests) ：在代码，评论，每个分支的实时预览更改方面进行协作，并通过合并请求来批准请求
+*   [里程碑](/project/milestone) ：在设置的里程碑日期前处理多个Issue及合并请求
 
-有关更多信息，请参见[所有 GitLab 功能](https://about.gitlab.com/features/) .
+## 账号[](#account "Permalink")
 
-### Concepts[](#concepts "Permalink")
+您可以自定义和配置以下内容：
 
-要熟悉在 GitLab 上开发代码所需的概念，请阅读以下文章：
+*   [设置](/account) ：管理用户设置以更改您的个人信息，个人访问令牌，授权的应用程序等
+*   [权限](/permissions) ：了解每种用户类型（访客，记者，开发人员，维护人员，所有者）的不同权限级别集
+*   [abuse](/abuse) ：向我们的审核人员举报用户的滥用或违规情况
 
-*   [Demo: Mastering Code Review With GitLab](https://about.gitlab.com/blog/2017/03/17/demo-mastering-code-review-with-gitlab/).
-*   [GitLab Workflow: An Overview](https://about.gitlab.com/blog/2016/10/25/gitlab-workflow-an-overview/#gitlab-workflow-use-case-scenario).
-*   [教程：在 GitLab 中都已连接](https://about.gitlab.com/blog/2016/03/08/gitlab-tutorial-its-all-connected/) ：与 GitLab 进行代码协作的概述.
-*   [Trends in Version Control Land: Microservices](https://about.gitlab.com/blog/2016/08/16/trends-in-version-control-land-microservices/).
-*   [Trends in Version Control Land: Innersourcing](https://about.gitlab.com/blog/2016/07/07/trends-version-control-innersourcing/).
+## 组织[](#organization "Permalink")
 
-## Use cases[](#use-cases "Permalink")
+通过建立[组织](/org)您可以将相关项目组合在一起，并授予成员一次访问多个项目的权限。
 
-GitLab 是一个基于 Git 的平台，它集成了许多用于软件开发和部署以及项目管理的基本工具：
+您也可以在组织中嵌套[子组织](/org/sub_org) 
 
-*   通过版本控制在存储库中托管代码.
-*   使用功能齐全的[问题跟踪器](project/issues/index.html#issues-list)跟踪有关新实现，错误报告和反馈的建议.
-*   组织和[发行委员会的](project/issues/index.html#issue-boards)优先次序.
-*   使用[Review Apps](../ci/review_apps/index.html)查看[合并请求中](project/merge_requests/index.html)每个分支的实时预览更改中的代码.
-*   使用内置的[持续集成进行](../ci/README.html)构建，测试和部署.
-*   使用[GitLab Pages](project/pages/index.html)部署个人和专业静态网站.
-*   通过使用[GitLab 容器注册表](packages/container_registry/index.html)与 Docker 集成.
-*   通过使用[GitLab 价值流分析](project/cycle_analytics.html)跟踪开发生命周期.
-*   提供[服务台](project/service_desk.html)支持.
+## 探讨[](#discussions "Permalink")
 
-使用 GitLab 企业版，您还可以：
+您可以在 Issue、合并请求、及提交中添加注释、评论并@相关人员，点击[了解更多](/discussions)。
 
-*   通过以下方式改善协作：
-    *   [合并请求批准](project/merge_requests/merge_request_approvals.html) .
-    *   [问题的多个受让人](project/issues/multiple_assignees_for_issues.html) .
-    *   [多个发行委员会](project/issue_board.html#multiple-issue-boards) .
-*   在[相关问题](project/issues/related_issues.html)之间创建正式关系.
-*   使用[Burndown Charts](project/milestones/burndown_charts.html)可以在冲刺期间或在使用其新版本软件时跟踪进度.
-*   利用[Elasticsearch](../integration/elasticsearch.html)和[Advanced Global Search](search/advanced_global_search.html)和[Advanced Syntax Search](search/advanced_search_syntax.html)在整个 GitLab 实例上进行更快，更高级的代码搜索.
-*   [Authenticate users with Kerberos](../integration/kerberos.html).
-*   从本地服务器上的其他地方[镜像存储库](project/repository/repository_mirroring.html) .
-*   [Export issues as CSV](project/issues/csv_export.html).
-*   使用[Multiple-Project Pipelines](../ci/multi_project_pipeline_graphs.html)查看涉及多个项目的整个 CI / CD [管道](../ci/multi_project_pipeline_graphs.html) .
-*   [锁定文件](project/file_lock.html)以防止冲突.
-*   使用[Deploy Boards](project/deploy_boards.html)查看在 Kubernetes 上运行的每个 CI 环境的当前运行状况和状态.
-*   利用[Canary 部署的](project/canary_deployments.html)连续交付方法.
-*   扫描您的代码中的漏洞， [并在合并请求中显示它们](application_security/sast/index.html) .
+### Markdown[](#markdown "Permalink")
 
-您还可以[将](project/integrations/overview.html) GitLab 与众多第三方应用程序[集成](project/integrations/overview.html) ，例如 Mattermost，Microsoft Teams，HipChat，Trello，Slack，Bamboo CI，Jira 等.
+您可以在[markdown](markdown.html)中了解如何在主题、注释、Issue 及合并请求以及所有支持markdonw的其他地方来使用markdown填写你的内容。
 
-## Projects[](#projects "Permalink")
+## 待办事项[](#todo "Permalink")
 
-在 GitLab 中，您可以创建[项目](project/index.html)来托管代码，跟踪问题，在代码上进行协作以及使用内置的 GitLab CI / CD 持续构建，测试和部署应用程序. 或者，您可以从一个项目中一次完成所有操作.
+[代办事项](/todo)可以让你与组织成员更快速、高效地进行写作，它会将所有用户或组织 @你的内容，也包括你被指派的 Issue 及合并请求，让你不会遗漏任何一个协助者的回复。
 
-*   [存储库](project/repository/index.html) ：将代码[库](project/repository/index.html)托管在具有版本控制的存储库中，并作为完全集成平台的一部分.
-*   [问题](project/issues/index.html) ：探索 GitLab 问题的最佳功能.
-*   [合并请求](project/merge_requests/index.html) ：在代码，评论，每个分支的实时预览更改方面进行协作，并通过合并请求请求批准.
-*   [里程碑](project/milestones/index.html) ：处理多个问题，并与里程碑在同一目标日期合并请求.
+## 搜索[](#search "Permalink")
 
-## GitLab CI/CD[](#gitlab-cicd "Permalink")
+[搜索和筛选](/search)组织、项目、Issue、合并请求、文件以及代码等内容。
 
-使用内置的[GitLab CI / CD](../ci/README.html)直接从 GitLab 测试，构建和部署应用程序. 无需第三方集成.
+## 快捷键[](#shortcutkey "Permalink")
 
-*   [GitLab Auto Deploy](../topics/autodevops/stages.html#auto-deploy) ：通过 GitLab Auto Deploy 开箱即用地部署您的应用程序.
-*   [Review Apps](../ci/review_apps/index.html) ：实时预览带有 Review Apps 的合并请求所引入的更改.
-*   [GitLab 页面](project/pages/index.html) ：使用 GitLab 页面直接从 GitLab 发布您的静态站点. 您可以使用 Pages 构建，测试和部署任何静态站点生成器.
-*   [GitLab Container Registry](packages/container_registry/index.html) ：使用 Container Registry 构建和部署 Docker 映像.
-
-## Account[](#account "Permalink")
-
-您可以自定义和配置很多东西，以享受 GitLab 的最佳体验.
-
-*   [设置](profile/index.html) ：管理用户设置以更改您的个人信息，个人访问令牌，授权的应用程序等.
-*   [身份验证](../topics/authentication/index.html) ：通读 GitLab 中可用的身份验证方法.
-*   [权限](permissions.html) ：了解每种用户类型（访客，记者，开发人员，维护人员，所有者）的不同权限级别集.
-*   [功能亮点](feature_highlight.html) ：了解有关应用周围的小蓝点的更多信息，这些小点可以解释某些功能.
-*   [滥用报告](abuse_reports.html) ：向 GitLab 管理员报告用户的[滥用情况](abuse_reports.html) .
-
-## Groups[](#groups "Permalink")
-
-使用 GitLab [组，](group/index.html)您可以将相关项目组合在一起，并授予成员一次访问多个项目的权限.
-
-组也可以嵌套在[子组中](group/subgroups/index.html) .
-
-## Discussions[](#discussions "Permalink")
-
-在 GitLab 中，您可以在问题，合并请求，代码段和提交中注释和提及合作者.
-
-通过合并请求对代码库的实现执行内联检查时，可以通过[可解析的线程](discussions/index.html#resolvable-comments-and-threads)收集反馈.
-
-### GitLab Flavored Markdown (GFM)[](#gitlab-flavored-markdown-gfm "Permalink")
-
-通读[GFM 文档，](markdown.html)以了解如何在线程，注释，问题和合并请求描述以及所有支持 GFM 的其他地方应用最好的 GitLab 风味 Markdown.
-
-## Todos[](#todos "Permalink")
-
-Never forget to reply to your collaborators. [GitLab Todos](todos.html) are a tool for working faster and more effectively with your team, by listing all user or group mentions, as well as issues and merge requests you’re assigned to.
-
-## Search[](#search "Permalink")
-
-[搜索和筛选](search/index.html)组，项目，问题，合并请求，文件，代码等.
-
-## Snippets[](#snippets "Permalink")
-
-[片段](snippets.html)是您要存储在 GitLab 中的代码块，您可以从中快速访问它们. 您还可以通过" [讨论"](#discussions)收集有关它们的反馈.
-
-## Keyboard shortcuts[](#keyboard-shortcuts "Permalink")
-
-GitLab 中有许多[键盘快捷键](shortcuts.html) ，可帮助您在页面之间导航并更快地完成任务.
-
-## Integrations[](#integrations "Permalink")
-
-[将 GitLab](../integration/README.html)与您喜欢的工具（例如 Trello，Jira 等） [集成](../integration/README.html) .
+CODEChina中支持许多[快捷键](/shortcutkey) ，帮助您更方便的在页面之间进行切换、更快地完成任务。
 
 ## Webhooks[](#webhooks "Permalink")
 
-配置[webhook](project/integrations/webhooks.html)以侦听特定事件，例如推送，问题或合并请求. GitLab 会将带有数据的 POST 请求发送到 webhook URL.
-
-## API[](#api "Permalink")
-
-通过[API](../api/README.html)自动化 GitLab.
-
-## Git and GitLab[](#git-and-gitlab "Permalink")
-
-了解什么是[Git](../topics/git/index.html)及其最佳实践.
-
-## Instance statistics[](#instance-statistics "Permalink")
-
-查看您的 GitLab 实例的[各种统计信息](instance_statistics/index.html) .
-
-## Operations Dashboard[](#operations-dashboard-premium "Permalink")
-
-See [Operations Dashboard](operations_dashboard/index.html) for a summary of each project’s operational health.
+配置webhook]以侦听特定事件，例如推送，问题或合并请求。CODEChina会将相关数据通过 POST 请求发送到 webhook 中配置的 URL 中。
