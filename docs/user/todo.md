@@ -43,7 +43,7 @@
 @dan what do you think?
 >>>
 
-@erin @frank thank you! 
+@erin @frank thank you!
 ```
 
 接收直接处理的待办事项的人是`@alice` ， `@erin`和`@frank` 。直接处理的待办事项仅在过滤的时候会有所不同，其他时候在显示上并无差异。
