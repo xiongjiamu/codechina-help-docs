@@ -1,169 +1,135 @@
 # 搜索[](#搜索 "Permalink")
 
-## Issues and merge requests[](#issues-and-merge-requests "Permalink")
+## Issues 及合并请求[](#issues-and-merge-requests "Permalink")
 
-要搜索问题并合并多个项目中的请求，可以使用屏幕右上角的" **问题"**或" **合并请求"**链接.
+如果要在多个项目的 Issue 或合并请求中搜索的话，可以使用屏幕左上角的" **Issue"**或" **合并请求"**链接（需要登录）。
 
-它们两者都以相同的方式工作，因此，以下说明对两者均有效.
+由于 Issue 及合并请求的工作方式基本一致，因此以下说明两者均适用。
 
-右边显示的数字代表分配给您的问题和合并请求的数量.
+点击**Issue**时 ，您会立即看到分配给您的未解决 Issue：
 
-[![issues and MRs dashboard links](img/d0143a44aad793332527a786d79524f7.png)](img/dashboard_links.png)
+[![Issues assigned to you](/../../docs/img/issues_assigned_to_you.png)](img/issues_assigned_to_you.png)
 
-点击**问题时** ，您会立即看到分配给您的未解决问题：
+您可以浏览 **开放中**, **已关闭**, 或 **全部** issues。
 
-[![Issues assigned to you](img/41371f9efeaf03eb888ba8e19a486185.png)](img/issues_assigned_to_you.png)
+您还可以使用搜索、过滤器字段对结果进行过滤，如下面的[过滤 Issue 及合并请求列表中所述](#filtering-issue-and-merge-request-lists) .
 
-You can search through **Open**, **Closed**, or **All** issues.
+### 由您创建或分配给您的 Issue 及合并请求[](#issues-and-mrs-assigned-to-you-or-created-by-you "Permalink")
 
-您还可以使用搜索和过滤器字段过滤结果，如下面的[过滤问题和合并请求列表中所述](#filtering-issue-and-merge-request-lists) .
+您还可以在屏幕上方的搜索框中找到由您创建或分配给您的 Issue 及合并请求的快捷入口：
 
-### Issues and MRs assigned to you or created by you[](#issues-and-mrs-assigned-to-you-or-created-by-you "Permalink")
+[![shortcut to your issues and mrs](/../../docs/img/issues_mrs_shortcut.png)](img/issues_mrs_shortcut.png)
 
-您还可以在屏幕右上角的搜索字段中找到问题的快捷方式，并合并由您创建或分配给您的请求：
+### Issue 或合并请求列表过滤[](#filtering-issue-and-merge-request-lists "Permalink")
 
-[![shortcut to your issues and mrs](img/a223e320ef570ec303a4e7346a899af7.png)](img/issues_mrs_shortcut.png)
+请可以参考下步骤对项目和组织中的" **Issue**及**合并请求"**列表进行过滤筛选：
 
-### Filtering issue and merge request lists[](#filtering-issue-and-merge-request-lists "Permalink")
-
-请按照以下步骤筛选项目和组中的" **问题**和**合并请求"**列表页面：
-
-1.  单击字段**搜索或过滤结果…** .
+1.  单击字段**搜索或过滤结果…** 
 2.  在出现的下拉菜单中，选择您要过滤的属性：
     *   作者
-    *   受让人
+    *   指派人
     *   [里程碑](../project/milestones/index.html)
-    *   释放
+    *   Release
     *   [标签](../project/labels.html)
     *   我的反应
     *   机密
-    *   Epic（在 GitLab 12.9 中[引入](https://gitlab.com/gitlab-org/gitlab/-/issues/195704) ），包括[儿童史诗](../group/epics/index.html#multi-level-child-epics-ultimate) （在[GitLab Ultimate](https://about.gitlab.com/pricing/) 13.0 中[引入](https://gitlab.com/gitlab-org/gitlab/-/issues/9029) ）
-    *   搜索此文字
-3.  选择或键入用于过滤属性的运算符. 可以使用以下运算符：
+    *   Epic
+    *   关键词
+3.  选择或键入用于过滤属性的运算符， 可以使用以下运算符：
     *   `=` ：是
-    *   `!=` ：不是（在 GitLab 12.7 中[引入](https://gitlab.com/gitlab-org/gitlab/-/issues/18059) ）
-4.  输入文本以按[过滤属性](#filters-autocomplete) .
-5.  重复此过程以按多个属性进行过滤. 多个属性通过逻辑`AND` .
+    *   `!=` ：不是
+4.  输入文本以按[过滤属性](#filters-autocomplete) 
+5.  重复此过程以按多个属性对结果进行过滤筛选， 可通过逻辑`AND` 添加多个属性
 
 例如，按作者`=` Jane 和 Milestone `!=` 12.6 进行过滤，以解决 Jane 是作者而里程碑不是 12.6 的问题.
 
-[![filter issues in a project](img/9570df3750a76ee8a88eddb48512daa3.png)](img/issue_search_filter_v12_7.png)
+[![filter issues in a project](/../../docs/img/issue_search_filter_v12_7.png)](img/issue_search_filter_v12_7.png)
 
-### Filtering by **None** / **Any**[](#filtering-by-none--any "Permalink")
+### 按 **无** / **任何**过滤[](#filtering-by-none--any "Permalink")
 
-一些过滤字段（例如里程碑和受让人）允许您按**None**或**Any**进行过滤.
+一些过滤字段（例如里程碑和指派人）允许您按**无**或**任何**进行过滤。
 
-[![filter by none any](img/e1f4f357a93d9362f282810a575d73e3.png)](img/issues_filter_none_any.png)
+[![filter by none any](/../../docs/img/issues_filter_none_any.png)](img/issues_filter_none_any.png)
 
-选择" **无"**将返回该字段为空值的结果. 例如：没有里程碑，没有受让人.
+选择" **无"**将返回该字段为空值的结果，即没有里程碑或没有指派人；
 
-选择" **任意** "则相反. 它返回该字段具有非空值的结果.
+选择" **任意** "则相反，它返回该字段具有非空值的结果。
 
-### Searching for specific terms[](#searching-for-specific-terms "Permalink")
+### 搜索特定内容[](#searching-for-specific-terms "Permalink")
 
-您可以按标题或说明中包含的特定术语过滤问题并合并请求.
+您可以按标题或说明中包含的特定内容过滤 Issue 及合并请求。
 
-*   Syntax
-    *   搜索以任何顺序查找查询中的所有单词. 例如：搜索问题以寻找`display bug` ，将以任何顺序返回匹配这两个单词的所有问题.
-    *   要找到确切的术语，请使用双引号： `"display bug"`
-*   Limitation
-    *   出于性能原因，少于 3 个字符的术语将被忽略. 例如：搜索问题`included in titles`是一样`included titles`
-    *   每个查询只能搜索 4096 个字符和 64 个字词.
+*   语法
+    *   以任何顺序搜索查找的单词，例如：搜索 Issue 以寻找`display bug` ，将以任何顺序返回匹配这两个单词的所有 Issue；
+    *   要精确的查找内容，请使用双引号： `"display bug"`。
+*   限制
+    *   出于性能原因考虑，少于 3 个字符的单词将被忽略。 例如：在 Issue 中搜索`included in titles`与搜索`included titles`是一样的；
+    *   每个查询只能搜索 4096 个字符或 64 个字词
 
-[![filter issues by specific terms](img/e336833accfac93c8ed18718b667dab5.png)](img/issue_search_by_term.png)
+### 按序号过滤[](#filtering-by-id "Permalink")
 
-### Filtering by ID[](#filtering-by-id "Permalink")
+您可以按 ID 将" **问题"**列表过滤到单个实例。例如，输入过滤器`#10`仅返回问题#10；这同样适用于" **合并请求"**列表， 输入过滤器`#30`仅返回合并请求#30.
 
-在 GitLab 12.1 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/39908) .
+## 自动填充[](#filters-autocomplete "Permalink")
 
-您可以按 ID 将" **问题"**列表过滤到单个实例. 例如，输入过滤器`#10`仅返回问题 10.这同样适用于" **合并请求"**列表. 输入过滤器`#30`以仅返回合并请求 30.
+在许多页面（如 Issue，合并请求，Epic等）中提供了许多过滤器，您可以使用它们来缩小搜索范围。使用过滤器功能时，可以开始键入字符以显示相关用户或其他属性。
 
-[![filter issues by specific id](img/1dcfd40d9306c4cfb80013c0cebdcac0.png)](img/issue_search_by_id.png)
+为了优化性能，至少需要三个字符才能开始搜索。例如，如果您要搜索指派人为" Simone Presley"的 Issue，则您需要至少输入" Sim"，然后系统才能自动完成并给出相关结果。
 
-### Filtering merge requests by approvers[](#filtering-merge-requests-by-approvers-starter "Permalink")
+## 搜索历史记录[](#search-history "Permalink")
 
-[Introduced](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/9468) in [GitLab Starter](https://about.gitlab.com/pricing/) 11.9.
+您可以通过单击搜索条左侧的下拉框来查看最近的搜索，单击搜索条目可以再次进行该搜索。此功能可用于 Issue 及合并请求，搜索结果存储在本地浏览器中。
 
-要过滤单个批准者的合并请求，您可以键入（或从下拉列表中选择） **批准者**并选择用户.
+[![search history](/../../docs/img/search_history.gif)](img/search_history.gif)
 
-[![Filter MRs by an approver](img/5ec08a62b534de16956701e85c41e6b5.png)](img/filter_approver_merge_requests.png)
+## 移除过滤条件[](#removing-search-filters "Permalink")
 
-### Filtering merge requests by “approved by”[](#filtering-merge-requests-by-approved-by-starter "Permalink")
+单击过滤器的（x）按钮或敲入退格键可以删除单个过滤器，整个搜索过滤器可以通过点击搜索框的（X）按钮，或通过`⌘`键`（Mac）+⌫`来清除。
 
-[Introduced](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/30335) in [GitLab Starter](https://about.gitlab.com/pricing/) 13.0.
+如果要一次删除一个过滤条件，可以使用`⌥` （Mac）/ `Ctrl` + `⌫`键盘组合.
 
-要过滤已由特定个人批准的合并请求，您可以键入（或从下拉列表中选择）" **批准"，**然后选择用户.
+## 重复使用同一过滤条件[](#filtering-with-multiple-filters-of-the-same-type "Permalink")
 
-[![Filter MRs by approved by](img/fe213f080418c1bd6d92faa7e49770d3.png)](img/filter_approved_by_merge_requests_v13_0.png)
+某些过滤条件可以多次添加，包括但不限于指派人和标签。相同类型的多个过滤条件在使用通过"与"逻辑连接。例如，如果您要过滤`assignee:@sam assignee:@sarah` ，那么您的结果将仅包含分配给 Sam 和 Sarah 的内容。
 
-## Filters autocomplete[](#filters-autocomplete "Permalink")
+## 快捷搜索入口[](#shortcut "Permalink")
 
-GitLab 在许多页面（问题，合并请求，史诗和管道等）中提供了许多过滤器，您可以使用它们来缩小搜索范围. 使用过滤器功能时，可以开始键入字符以显示相关用户或其他属性.
+您还可以在项目仪表板上方的搜索框中找到搜索的快捷入口，以快速访问在该项目的 Issue 或合并请求中由您创建或分配给您的内容：
 
-为了优化性能，至少需要三个字符才能开始搜索. 例如，如果您要搜索受让人" Simone Presley"的问题，则您需要至少键入" Sim"，然后自动完成才能给出任何相关结果.
+## 待办事项[](#to-do-list "Permalink")
 
-## Search history[](#search-history "Permalink")
+可以通过"待办事项"和"完成"来搜索您的[待办事项列表](../todos.html#gitlab-to-do-list) 。您可以按项目，作者，类型和操作[过滤](../todos.html#filtering-your-to-do-list)它们。另外，您可以按[**标签优先级**](../../user/project/labels.html#label-priority) ， **最后创建**和**最早创建**对其进行排序。
 
-您可以通过单击搜索输入左侧的小箭头图标来查看最近的搜索. 单击搜索条目以再次运行该搜索. 此功能可用于问题和合并请求. 搜索结果存储在本地浏览器中.
+## 项目[](#projects "Permalink")
 
-[![search history](img/3863add8513c90ad786112f7a200a568.png)](img/search_history.gif)
-
-## Removing search filters[](#removing-search-filters "Permalink")
-
-单击过滤器的（x）按钮或退格可以删除单个过滤器. 整个搜索过滤器可以通过点击搜索框的（X）按钮，或通过`⌘`键`（Mac）+⌫`被清除.
-
-要一次删除一个过滤器令牌，可以使用`⌥` （Mac）/ `Ctrl` + `⌫`键盘组合.
-
-## Filtering with multiple filters of the same type[](#filtering-with-multiple-filters-of-the-same-type "Permalink")
-
-某些过滤器可以多次添加. 这些包括但不限于受让人和标签. 当使用相同类型的多个过滤器进行过滤时，将应用"与"逻辑. 例如，如果您要过滤`assignee:@sam assignee:@sarah` ，那么您的结果将仅包含将受让人分配给 Sam 和 Sarah 的条目.
-
-[![multiple assignees filtering](img/1165fee2238c55848aeb09d59c76cf7b.png)](img/multiple_assignees.png)
-
-## Shortcut[](#shortcut "Permalink")
-
-您还可以在项目仪表板右上方的搜索字段中找到快捷方式，以快速访问问题并合并在该项目中创建或分配给您的请求：
-
-[![search per project - shortcut](img/3001efd4ffb849af0c15eb8dda4d4050.png)](img/project_search.png)
-
-## To-Do List[](#to-do-list "Permalink")
-
-可以通过"待办事项"和"完成"来搜索您[的待办事项列表](../todos.html#gitlab-to-do-list) . 您可以按项目，作者，类型和操作[过滤](../todos.html#filtering-your-to-do-list)它们. 另外，您可以按[**标签优先级**](../../user/project/labels.html#label-priority) ， **最后创建**和**最早创建**对其进行排序.
-
-## Projects[](#projects "Permalink")
-
-您可以从左侧菜单中搜索项目，方法是依次点击菜单栏和**项目** . 在" **按名称过滤** "字段上，输入要查找的项目或组名称，GitLab 会在您键入时为您过滤它们.
+您可以从导航中项目菜单栏去搜索和发现项目，方法是依次点击**项目>浏览项目** ， 在" **按名称过滤** "字段上，输入要查找的项目或组织名称即可。
 
 你也可以去找你的项目[出演](../project/index.html#star-a-project) （ **加星标的项目** ），并**探索**所有的公共和内部项目 GitLab.com 可用，从中你可以通过可视性筛选，通过**趋势** ，最好与**大多数明星**评分，或他们的**全部** .
 
-您还可以按**名称** ， **最后创建** ， **最旧创建** ， **最后更新** ， **最新更新** ， **所有者**对它们进行排序，并选择隐藏或显示**已归档的项目** ：
+您还可以按**名称** ， **最后创建** ， **最旧创建** ， **最后更新** ， **最新更新** ， **所有者**对搜索结果中的项目进行排序，并选择隐藏或显示**已归档的项目** 。
 
-[![sort projects](img/7ff67c276870da733a9bc04b2aa9d969.png)](img/sort_projects.png)
+## 组织[](#org "Permalink")
 
-## Groups[](#groups "Permalink")
+与[项目搜索](#projects)类似，你可以通过导航中组织菜单栏去搜索和发现组织。
 
-Similarly to [projects search](#projects), you can search through your groups from the left menu, by clicking the menu bar, then **Groups**.
+在" **按名称过滤** "字段上，输入要查找的组名，在您键入时为您过滤它们。
 
-在" **按名称过滤** "字段上，输入要查找的组名，GitLab 将在您键入时为您过滤它们.
+您也可以**浏览**所有的公共组织，您可以按照**最新创建的** ， **最早建立** ， **最后更新** ，或**最早的更新** 进行筛选过滤。
 
-您也可以**浏览**所有的公共和 GitLab.com 可用的内部组，您可以按照**最新创建的** ， **最早建立** ， **最后更新** ，或**最早的更新** .
+## 看板[](#issue-boards "Permalink")
 
-## Issue Boards[](#issue-boards "Permalink")
+在[看板](../../user/project/issue_board.html) 中，您可以按**作者** ， **指派人** ， **里程碑**和**标签**过滤 Issue。您还可以从键入时加载的字段中**按名称过滤** 。
 
-在[问题板上](../../user/project/issue_board.html) ，您可以按**作者** ， **受让人** ， **里程碑**和**标签**过滤问题. 您还可以从键入时加载的字段中**按名称过滤** （按名称）（问题标题）.
+当您要添加**Issue**到看板中以便在看板中搜索时，请点击屏幕右上角的**添加 Issue**按钮，除了按**名称**过滤它们之外，您还可以从中找到一个模式窗口**作者** ， **受让人** ， **里程碑**和**标签** ，选择多个问题以添加到您选择的列表中。
 
-当您要搜索要添加到**问题**面板中列表中的问题时，请点击屏幕右上角的**添加问题**按钮，打开一个模态窗口，除了按**名称**过滤它们之外，您还可以从中找到一个模式窗口**作者** ， **受让人** ， **里程碑**和**标签** ，选择多个问题以添加到您选择的列表中：
+## 高级全局搜索[](#advanced-global-search-starter "Permalink")
 
-[![search and select issues to add to board](img/e57526dd100a1b0a33bdae55e3bf32c7.png)](img/search_issues_board.png)
+利用 Elasticsearch 进行更快，更高级的代码搜索。
 
-## Advanced Global Search[](#advanced-global-search-starter "Permalink")
+[关于高级全局搜索](/search/global)
 
-利用 Elasticsearch 在整个 GitLab 实例上进行更快，更高级的代码搜索.
+## 高级语法搜索[](#advanced-syntax-search-starter "Permalink")
 
-[Learn how to use the Advanced Global Search.](advanced_global_search.html)
+使用高级语法搜索可获得更具针对性的搜索结果。
 
-## Advanced Syntax Search[](#advanced-syntax-search-starter "Permalink")
-
-使用高级查询获得更具针对性的搜索结果.
-
-[Learn how to use the Advanced Syntax Search.](advanced_search_syntax.html)
+[关于高级语法搜索](/search/syntax)
