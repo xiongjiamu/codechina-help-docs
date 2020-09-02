@@ -2,14 +2,14 @@
 
 当您登录到 CODEChina 时，通常需要看一下哪些内容需要花费较多时间、开始干活或知道需要注意的是哪些，而无需理会大量的电子邮件通知。这里是您工作的地方，因此能够快速下手开展工作尤为重要。待办事项就是这样一个工具，它在一个简单的仪表板中按时间顺序列出了等待您处理的内容。
 
-[![To Do screenshot showing a list of items to check on](img/aafa273009fd04415444f040f8b4c6cc.png)](img/todos_index.png)
+[![To Do screenshot showing a list of items to check on](/../../docs/img/todos_index.png)](img/todos_index.png)
 
 通过单击顶部导航右上角的对勾图标，可以快速访问待办事项列表. 如果计数为：
 
 *   小于 100 的蓝色数字是待办事项的数量
 *   大于或等于 100，则数字显示为 99+， 确切的数字显示在"任务列表"上
 
-[![To Do icon](img/7f8f5e942a32629817a87b08e33d9071.png)](img/todos_icon.png)
+[![To Do icon](/../../docs/img/todos_icon.png)](img/todos_icon.png)
 
 ## 待办事项类型[](#what-triggers-a-to-do "Permalink")
 
@@ -55,7 +55,7 @@
 *   Issue
 *   合并请求
 
-[![Adding a To Do from the issuable sidebar](img/f44886a0dc98ed48e0854c7d2ac6a220.png)](img/todos_add_todo_sidebar.png)
+[![Adding a To Do from the issuable sidebar](/../../docs/img/todos_add_todo_sidebar.png)](img/todos_add_todo_sidebar.png)
 
 ## 标记已完成[](#marking-a-to-do-as-done "Permalink")
 
@@ -82,14 +82,14 @@
 
 如果不需要做任何处理，您可以通过单击相应的**完成**按钮来手动将"待办事项"标记为已完成，它也将从您的"待办事项列表"中消失。
 
-[![A To Do in the To-Do List](img/235fdd047e32990019bc08c92ced8299.png)](img/todos_todo_list_item.png)
+[![A To Do in the To-Do List](/../../docs/img/todos_todo_list_item.png)](img/todos_todo_list_item.png)
 
 您还可以通过单击以下边栏中的" **标记为已完成**按钮将"待办事项" **标记为已完成** ：
 
 *   Issue
 *   合并请求
 
-[![Mark as done from the issuable sidebar](img/5e63fee9a28bb3e02eb772646de82b5c.png)](img/todos_mark_done_sidebar.png)
+[![Mark as done from the issuable sidebar](/../../docs/img/todos_mark_done_sidebar.png)](img/todos_mark_done_sidebar.png)
 
 您可以通过单击**全部标记为已完成**按钮将所有待办事项**标记为已完成** 。
 
