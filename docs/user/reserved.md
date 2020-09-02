@@ -1,6 +1,6 @@
 # 预留命名空间[](#预留命名空间 "Permalink")
 
-并非所有项目和组名都被允许，因为它们会与 GitLab 使用的现有路由冲突.
+出于系统安全、商标及知识保护等方面的考虑，在设置用户或组织的命名空间时并非所有的名称都会被允许。
 
 有关不允许用作组名或项目名的单词的列表，请参阅`TOP_LEVEL_ROUTES` ， `PROJECT_WILDCARD_ROUTES`和`GROUP_ROUTES`列表下的[`path_regex.rb`文件](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/path_regex.rb) ：
 
@@ -8,7 +8,7 @@
 *   `PROJECT_WILDCARD_ROUTES` ：是为子组或项目保留的名称.
 *   `GROUP_ROUTES` ：是为所有组或项目保留的名称.
 
-## Reserved project names[](#reserved-project-names "Permalink")
+## 预留的项目名[](#reserved-project-names "Permalink")
 
 当前无法创建具有以下名称的项目：
 
@@ -34,9 +34,9 @@
 *   `update`
 *   `wikis`
 
-## Reserved group names[](#reserved-group-names "Permalink")
+## 预留的组织名[](#reserved-group-names "Permalink")
 
-当前，以下名称保留为顶级组：
+当前，以下是顶级组织的预留名称：
 
 *   `\-`
 *   `.well-known`
