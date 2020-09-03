@@ -1,136 +1,91 @@
 # 讨论[](#讨论 "Permalink")
 
-整个 GitLab 都提供了进行对话的能力.
-
 您可以在以下位置发表评论：
 
 *   Issues
 *   Epics
 *   合并要求
-*   Snippets
-*   Commits
-*   提交差异
+*   提交
+*   diff
 
-有标准注释，您还可以选择以线程形式创建注释. 收到回复后，评论也可以[变成主题](#start-a-thread-by-replying-to-a-standard-comment) .
+除了标准的评论形式外，您还可以选择以话题讨论的方式创建评论， 收到回复后，评论也将是[话题讨论](#start-a-thread-by-replying-to-a-standard-comment) 的形式。
 
-评论区域支持[Markdown](../markdown.html)和[快速操作](../project/quick_actions.html) . 您可以随时编辑自己的评论，拥有" [维护者"访问级别](../permissions.html)或更高[权限的](../permissions.html)任何人也可以编辑其他人的评论.
+评论区域支持[Markdown](../markdown.html)和[快速操作](../project/quick_actions.html) ， 您可以随时编辑自己的评论，拥有" [maintainer"](../permissions.html)或更高[权限的](../permissions.html)用户也可以编辑其他人的评论。
 
-如果为您的 GitLab 实例配置了" [通过电子邮件回复"，](../../administration/reply_by_email.html)您还可以回复评论通知电子邮件以回复评论. 回复标准评论会创建另一个标准评论. 回复主题注释会在主题中创建回复. 电子邮件回复支持[Markdown](../markdown.html)和[快速操作](../project/quick_actions.html) ，就像您从网络上回复一样.
+您还可以通过回复评论通知电子邮件来回复评论，回复标准评论会创建另一个标准评论。回复主题评论会在主题中创建回复，电子邮件回复支持[Markdown](../markdown.html)和[快速操作](../project/quick_actions.html)。
 
-**注意：**每个对象最多只能有 5,000 条注释，例如：issue，epic 和 merge request.
+**注意：**每个对象最多只能有 5,000 条评论，例如：issue，epic 及合并请求。
 
-## Resolvable comments and threads[](#resolvable-comments-and-threads "Permalink")
+## 可解决的评论及讨论[](#resolvable-comments-and-threads "Permalink")
 
-版本历史
+讨论有助于跟踪计划和代码审查的进度。
 
-*   在 GitLab 8.11 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/5022) .
-*   可解决的线程只能添加到合并请求差异中.
+合并请求，提交，提交差异和代码片中的每个评论或讨论初始状态都显示为未解决，具有Developer及以上权限的任何人或所检查的更改的作者都可以单独解决这些问题。即使该讨论已解决，如果非成员没有解决他们自己的响应，讨论也不会标记为解决；如果非成员解决了相同的答复，则讨论会被标记为已解决。
 
-线程解析有助于跟踪计划或代码审查期间的进度.
+解决所有评论或讨论可以防止您忘记处理反馈，并可以隐藏不再相关的线程。
 
-合并请求，提交，提交差异和摘要中的每个标准注释或线程最初都显示为未解决. 然后，至少具有开发人员访问项目权限的任何人或所检查的更改的作者都可以单独解决这些问题. 如果该线程已解决，并且非成员取消了他们自己的响应，则这也将取消解决讨论线程. 如果非成员然后解决了相同的答复，则将解决讨论线程.
+### 在合并请求的上下文中发起讨论[](#commit-threads-in-the-context-of-a-merge-request "Permalink")
 
-解决所有标准注释或线程的需求可以防止您忘记处理反馈，并可以隐藏不再相关的线程.
+对于具有基于提交的工作流的审阅者，在合并请求的上下文中将讨论添加到特定的提交差异上可能很有用。 在以下情况下，这些讨论将通过提交ID更改来保持不变：
 
-[!["A thread between two people on a piece of code"](img/18f2b22b7daf0beab9074c6695c99960.png)](img/thread_view.png)
+*   Rebase后强行提交代码
+*   修改提交的评论
 
-### Commit threads in the context of a merge request[](#commit-threads-in-the-context-of-a-merge-request "Permalink")
+可以按照以下步骤创建提交差异讨论：
 
-在 GitLab 10.3 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/issues/31847) .
+1.  导航到合并请求的" **提交"**选项卡,将显示构成合并请求的提交列表
 
-对于具有基于提交的工作流的审阅者，在合并请求的上下文中将线程添加到特定的提交差异可能很有用. 在以下情况下，这些线程将通过更改提交 ID 保持不变：
+2.  进入选定的提交，单击" **更改"**选项卡（在该选项卡中，将仅显示与所选提交不同的内容），并提交评论
 
-*   重新设置后强制推动
-*   修改提交
+    [![Commit diff discussion in merge request context](/../../docs/img/commit_comment_mr_context.png)](img/commit_comment_mr_context.png)
 
-创建提交差异线程：
+3.  以这种方式创建的任何讨论都将显示在合并请求的"**讨论"**选项卡中，并且可以解决
 
-1.  导航到合并请求的" **提交"**选项卡. 将显示构成合并请求的提交列表.
+以这种方式创建的线程将仅出现在原始合并请求中，而不是在项目的" **代码">"提交"**页面下的**提交**中。
 
-    [![Merge request commits tab](img/b061980557a1e04fe2a2f3836b8dd9c1.png)](img/merge_request_commits_tab.png)
+**提示：**在合并请求内的讨论中引用的提交的链接时，它将在当前合并请求的上下文中自动转换为链接。
 
-2.  导航到特定的提交，单击" **更改"**选项卡（在该选项卡中，将仅显示与所选提交不同的内容），并留下评论.
+### 解决话题跳转[](#jumping-between-unresolved-threads "Permalink")
 
-    [![Commit diff discussion in merge request context](img/fc09af9303f629aff49a9a4dc5327e65.png)](img/commit_comment_mr_context.png)
+当合并请求中包含大量评论时，可能很难跟踪未解决的评论。 您可以使用讨论上"回复"字段旁边的"跳转"按钮在未解决的讨论之间快速跳转。
 
-3.  以这种方式创建的任何线程都将显示在合并请求的" **讨论"**选项卡中，并且可以解决.
-
-    [![Merge request Discussions tab](img/033c41dc1122d52872dcb67228037524.png)](img/commit_comment_mr_discussions_tab.png)
-
-以这种方式创建的线程将仅出现在原始合并请求中，而不是导航到项目的" **存储库">"提交"**页面下的**提交时** .
-
-**提示：**在合并请求内的线程中找到提交引用的链接时，它将在当前合并请求的上下文中自动转换为链接.
-
-### Jumping between unresolved threads[](#jumping-between-unresolved-threads "Permalink")
-
-当合并请求中包含大量注释时，可能很难跟踪仍未解决的问题. 您可以使用线程上"回复"字段旁边的"跳转"按钮在未解决的线程之间跳转.
-
-您也可以从已解决的线程跟踪器旁边的按钮跳转到下一个未解决的线程.
-
-您还可以使用键盘快捷键在线程之间导航：
+您还可以使用快捷键在讨论之间导航：
 
 *   使用`n`跳到下一个未解决的线程.
 *   使用`p`跳到上一个未解决的线程.
 
-[!["8/9 threads resolved"](img/27b77c1cf5861234d7e06b742e7cbf58.png)](img/threads_resolved.png)
+### 将评论或讨论标记为已解决[](#marking-a-comment-or-thread-as-resolved "Permalink")
 
-### Marking a comment or thread as resolved[](#marking-a-comment-or-thread-as-resolved "Permalink")
+您可以通过单击**讨论**底部的" **解决讨论"**按钮将其标记为已解决。
 
-您可以通过单击**线程**底部的" **解决线程"**按钮将其标记为已解决.
+[!["Resolve thread" button](/../../docs/img/resolve_thread_button.png)](img/resolve_thread_button.png)
 
-[!["Resolve thread" button](img/f94efd219528f7641e29dbca3bc215ad.png)](img/resolve_thread_button.png)
+或者，您可以将每个评论单独标记为已解决。
 
-或者，您可以将每个评论标记为单独解决.
+[!["Resolve comment" button](/../../docs/img/resolve_comment_button.png)](img/resolve_comment_button.png)
 
-[!["Resolve comment" button](img/9246e597493024c10e4f678f7de7318e.png)](img/resolve_comment_button.png)
+### 在合并请求中所有未解决讨论转为 Issue[](#move-all-unresolved-threads-in-a-merge-request-to-an-issue "Permalink")
 
-### Move all unresolved threads in a merge request to an issue[](#move-all-unresolved-threads-in-a-merge-request-to-an-issue "Permalink")
+要在新 Issue 中解决当前自合并请求中的所有未解决的讨论时，可以单击" **再新问题中解决所有讨论"**的按钮。
 
-在 GitLab 9.1 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/8266)
+[![Open new issue for all unresolved threads](/../../docs/img/btn_new_issue_for_all_threads.png)](img/btn_new_issue_for_all_threads.png)
 
-要在新问题中继续执行来自合并请求的所有打开的线程，请单击" **解决新问题中的所有线程"**按钮.
+或者，当您的项目仅[在解决所有讨论](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved)后才接受合并请求[时](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved) ，在合并请求部件中会有一个创建一个新 Issue 以便稍后解决的选项。
 
-[![Open new issue for all unresolved threads](img/c7b2f6ed12531da21a4512becdf843af.png)](img/btn_new_issue_for_all_threads.png)
+### 将单个讨论转变成 Issue[](#moving-a-single-thread-to-a-new-issue "Permalink")
 
-或者，当您的项目仅[在解决所有线程](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved)后才接受合并请求[时](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved) ，将存在**一个问题，即以后**在合并请求小部件中**解决它们的**链接.
+要从单个讨论创建新 Issue时，可以使用" **在新问题中解决此讨论"**按钮。
 
-[![Link in merge request widget](img/4e480a29eb679b62ed97f748fc9acdd7.png)](img/resolve_thread_open_issue.png)
+您将会跳转到预填充了讨论内容的新 Issue，类似于为一次委派多个讨论而创建的 Issue。创建 Issue 将把该讨论标记为已解决，并在合并请求讨论中添加引用新 Issue 的评论。
 
-这将准备一个问题，其内容涉及合并请求和未解决的线程.
 
-[![Issue mentioning threads in a merge request](img/cbf589a2c41bb518f8f2da56b76a59dc.png)](img/preview_issue_for_threads.png)
+### 只有全部讨论内容解决后才允许合并[](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved "Permalink")
 
-击中" **提交"问题**将导致所有线程被标记为已解决，并添加注释以引用新创建的问题.
+在解决所有讨论之前，将不允许合并合并请求。
 
-[![Mark threads as resolved notice](img/b36e59e0da065f17e34891efef2ee0a1.png)](img/resolve_thread_issue_notice.png)
+要使该设置生效，需要进入项目的设置页面，选中" **仅在解决所有讨论后才允许合并请求"**复选框，然后单击" **保存"**即可。
 
-现在，您可以继续从 UI 合并合并请求.
-
-### Moving a single thread to a new issue[](#moving-a-single-thread-to-a-new-issue "Permalink")
-
-在 GitLab 9.1 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/8266)
-
-要为单个线程创建新问题，可以使用" **在新问题中解决此线程"**按钮.
-
-[![Create issue for thread](img/c3948ae724d699cf1ec0da64ab3e6a14.png)](img/new_issue_for_thread.png)
-
-这会将您定向到预填充了线程内容的新问题，类似于为一次委派多个线程而创建的问题. 保存问题将把该线程标记为已解决，并在合并请求线程中添加引用新问题的注释.
-
-[![New issue for a single thread](img/e5d9c1be329fa86c36614dea613f69a3.png)](img/preview_issue_for_thread.png)
-
-### Only allow merge requests to be merged if all threads are resolved[](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved "Permalink")
-
-在 GitLab 8.14 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/7125) .
-
-在解决所有线程之前，可以阻止合并请求.
-
-导航到项目的设置页面，选中" **仅在解决所有线程后才允许合并请求"**复选框，然后单击" **保存"**以使更改生效.
-
-[![Only allow merge if all the threads are resolved settings](img/9bc04e4a71e5ed3917efabdca45725c7.png)](img/only_allow_merge_if_all_threads_are_resolved.png)
-
-从现在开始，直到所有线程解决后，您才能从 UI 进行合并.
-
-[![Only allow merge if all the threads are resolved message](img/4e480a29eb679b62ed97f748fc9acdd7.png)](img/resolve_thread_open_issue.png)
+从现在开始，直到所有讨论解决后，您才能从网页上进行合并操作。
 
 ### Automatically resolve merge request diff threads when they become outdated[](#automatically-resolve-merge-request-diff-threads-when-they-become-outdated "Permalink")
 
@@ -144,125 +99,58 @@
 
 从现在开始，如果推送使 diff 部分过时，默认情况下将解决 diff 上的所有线程. 不变的线上线程和顶级可解析线程不会自动解析.
 
-## Commit threads[](#commit-threads "Permalink")
+## 提交的讨论[](#commit-threads "Permalink")
 
-您可以在项目的**Repository> Commits**下向特定提交添加注释和线程.
+您可以在项目的**代码> 提交**下向特定提交添加评论和讨论。
 
-**注意：**如果在强制推送后更改了提交 ID，则以这种方式创建的线程将丢失.
+**注意：**如果在强制推送后更改了提交 ID，则以这种方式创建的讨论将丢失。
 
-## Threaded discussions[](#threaded-discussions "Permalink")
+## 讨论的讨论[](#threaded-discussions "Permalink")
 
-在 GitLab 9.1 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/7527) .
+虽然可解决的讨论仅适用于合并请求的文件diff，但也可以添加与文件diff无关的讨论， 您可以针对 Issue，提交，摘要及合并请求添加一个看起来像讨论的特定讨论。
 
-尽管可解析线程仅可用于合并请求差异，但也可以添加没有差异的线程. 您可以针对问题，提交，摘要和合并请求启动一个看起来像线程的特定线程.
+要开始讨论，请单击" **评论"**按钮切换下拉列表，选择" **开始讨论"，**并在准备发布评论时单击" **开始讨论** "按钮。
 
-要开始主题讨论，请单击" **评论"**按钮切换下拉列表，选择" **开始主题"，**并在准备发布评论时单击" **开始主题** ".
+这将以单个讨论的形式发起评论，使您可以更大的范围进行特定的讨论。
 
-[![Comment type toggle](img/66e7cbbe98ed69a6154c1adcd7ec4f6e.png)](img/comment_type_toggle.gif)
+## 图片的讨论[](#image-threads "Permalink")
 
-这将以单个线程发布评论，使您可以更详细地讨论特定评论.
+有时讨论会围绕图片展开。使用图片讨论，您可以轻松地定位图像的特定坐标并在其周围开启讨论。图片讨论在合并请求详情和提交的详情页面中可用。
 
-[![Thread comment](img/d3cc00bf5599be56b0b3154ca2751cbc.png)](img/discussion_comment.png)
+要启动图片讨论，请将鼠标悬停在图片上。当您的鼠标指针转换为图标时，表示该图片可用于讨论，此时只需单击图片上的任意位置以创建新的讨论即可。
 
-## Image threads[](#image-threads "Permalink")
+单击图片后，将显示新建评论输入框，保存评论后，您会在图像顶部看到一个新的徽章，此徽章代表您的讨论。
 
-在 GitLab 10.1 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/14061) .
+## 锁定讨论[](#lock-discussions "Permalink")
 
-有时线程围绕图像旋转. 使用图像线程，您可以轻松地定位图像的特定坐标并在其周围启动线程. 图像线程在合并请求和提交详细信息视图中可用.
+对于有较多贡献者参与的大型项目，在以下场景中禁用讨论将会非常地有帮助：
 
-要启动图像线程，请将鼠标悬停在图像上. 您的鼠标指针应转换为图标，表示该图像可用于注释. 只需单击图像上的任意位置以创建新线程.
+*   项目维护者已经解决了该问题，无需更多的后续反馈
+*   项目维护者已经将新讨论指向了新的 Issue 或合并请求
+*   参与讨论者的讨论内容比较随意、辱骂或是无益的产品建议
 
-[![Start image thread](img/72a8c3cb5bafa1e02d93f68a624b6094.png)](img/start_image_discussion.gif)
+在这些情况下，项目中具有开发者权限或更高权限的用户可以使用边栏中的"锁定"按钮来锁定/解锁 问题或合并请求. 对于问题，具有记者权限的用户可以锁定/解锁。
 
-单击图像后，将显示注释表单，该注释表单将成为您线程的开始. 保存评论后，您会在图像顶部看到一个新的徽章. 此徽章代表您的话题.
+在锁定的问题或合并请求中，只有团队成员才能添加新评论和编辑现有评论，非团队成员无法添加或编辑评论。
 
-> **注意：**该线程标志通常与一个数字关联，该数字仅用作每个线程的可视参考. 在合并请求线程选项卡中，此标记将带有注释图标，因为每个线程都会呈现一个新的图像部分.
+## 合并请求评审[](#merge-request-reviews "Permalink")
 
-图像线程还可以在替换现有图像的差异上工作. 在此差异查看模式下，您可以切换不同的查看模式，但仍可以看到线点标记.
+查看"合并请求"差异时，您可以开始审阅，您可以在"合并请求"中创建**仅**在发布之前才对**您可见的**评论，以便您可以将所有评论作为单个操作提交。
 
-| 2-up | Swipe | 洋葱皮 |
-| --- | --- | --- |
-| [![2-up view](img/be7e963d6561756bb87f6fea0cd245fa.png)](img/two_up_view.png) | [![swipe view](img/14110c067c5c98646bcad82dbd3be10b.png)](img/swipe_view.png) | [![onion skin view](img/5113c12752dd029f29a28c6f0660cde1.png)](img/onion_skin_view.png) |
+### 开始评审[](#starting-a-review "Permalink")
 
-映像线程也可与可解析线程一起很好地工作. 差异上的已解析线程（不在"合并请求讨论"选项卡上）在页面加载时将显示为折叠状态，并且将具有对应的标记计数器以匹配图像上的计数器.
+为了开始审阅，只需像往常一样在合并请求的" **更改"**选项卡下对差异添加评论，然后单击" **开始审阅"**按钮。
 
-[![Image resolved thread](img/fc692dde7a0c9ce30f0036b1a05b2768.png)](img/image_resolved_discussion.png)
+当开始审阅后，审阅内容部分中所有的评论都会被标记为`Pending`，同时所有审阅中的评论都会显示两个按钮：
 
-## Lock discussions[](#lock-discussions "Permalink")
+*   **完成审阅** ：提交**审阅中的**所有评论，使其他用户可以看到它们
+*   **立即添加评论** ：提交常规评论，而不是审阅的一部分
 
-在 GitLab 10.1 中[引入](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/14531) .
+您可以在评论中使用[快速操作](../project/quick_actions.html) ， 评论也将会显示提交评论后即将执行的操作。
 
-For large projects with many contributors, it may be useful to stop threads in issues or merge requests in these scenarios:
+要向评论添加更多评论，请照常开始写评论，然后单击**添加到评论**按钮，这会将评论添加到评论中。
 
-*   项目维护者已经解决了该线程，对于继续反馈没有帮助.
-*   项目维护者已经将新对话指向新问题或合并请求.
-*   参与线程的人正在拖钓，辱骂或没有生产力.
-
-在这些情况下，项目中具有开发者权限或更高权限的用户可以使用边栏中的"锁定"部分来锁定（和解锁）问题或合并请求. 对于问题，具有记者权限的用户可以锁定（和解锁）.
-
-| Unlock | Lock |
-| --- | --- |
-| [![Turn off discussion lock](img/e7d7b1c5ccf121da6fcfbbc1eb78bbcd.png)](img/turn_off_lock.png) | [![Turn on discussion lock](img/3ed7ccf7499687536cf254fc6f47d5e7.png)](img/turn_on_lock.png) |
-
-系统注释指示锁定和解锁.
-
-[![Discussion lock system notes](img/2629e4ef9252e4970d626ca424e88dd2.png)](img/discussion_lock_system_notes.png)
-
-在锁定的问题或合并请求中，只有团队成员才能添加新评论和编辑现有评论. 禁止非团队成员添加或编辑评论.
-
-| 队员 | 非团队成员 |
-| --- | --- |
-| [![Comment form member](img/5c0acf7979c7bc1e89dc413017b70870.png)](img/lock_form_member.png) | [![Comment form non-member](img/94675a32947787d4e216a44e3047d0b5.png)](img/lock_form_non_member.png) |
-
-此外，无法重新打开锁定的问题和合并请求.
-
-## Merge Request Reviews[](#merge-request-reviews "Permalink")
-
-版本历史
-
-*   在[GitLab Premium](https://about.gitlab.com/pricing/) 11.4 中[引入](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/4213) .
-*   在 13.1 版中[移至](https://gitlab.com/gitlab-org/gitlab/-/issues/28154) GitLab Core.
-
-查看"合并请求"差异时，您可以开始审阅. 这样，您便可以在"合并请求"中创建**仅**在发布之前才对**您可见的**注释，以便您可以将所有注释作为单个操作提交.
-
-### Starting a review[](#starting-a-review "Permalink")
-
-为了开始审阅，只需像往常一样在 MR 的" **更改"**选项卡下对差异添加注释，然后单击" **开始审阅"**按钮.
-
-[![Starting a review](img/40dbd9d2f1f965f42a1c417a258da575.png)](img/mr_review_start.png)
-
-Once a review is started, you will see any comments that are part of this review marked `Pending`. All comments that are part of a review show two buttons:
-
-*   **完成审阅** ：提交**审阅中的**所有评论，使其他用户可以看到它们.
-*   **立即添加评论** ：提交特定评论作为常规评论，而不是审阅的一部分.
-
-[![A comment that is part of a review](img/9fa9d16dd2302ab20167b7ff1ca62575.png)](img/pending_review_comment.png)
-
-您可以在评论中使用[快速操作](../project/quick_actions.html) . 注释将显示发布后将执行的操作.
-
-[![A review comment with quick actions](img/2927b047cacec2945671ab2484aafe9d.png)](img/review_comment_quickactions.png)
-
-要向评论添加更多评论，请照常开始写评论，然后单击**添加到评论**按钮.
-
-[![Adding a second comment to a review](img/996ea860188e6458fe761cf86b2b72b1.png)](img/mr_review_second_comment.png)
-
-这会将评论添加到评论中.
-
-[![Second review comment](img/a102a1abbf4c760dba4b8b3daef8fe26.png)](img/mr_review_second_comment_added.png)
-
-### Resolving/Unresolving threads[](#resolvingunresolving-threads "Permalink")
-
-评论注释也可以解决/无法解决[可解决的线程](#resolvable-comments-and-threads) . 回复评论时，您将看到一个复选框，您可以单击该复选框以在发布后解决或取消解决线程.
-
-[![Resolve checkbox](img/865329b4b113d6de44cf382bd77178fa.png)](img/mr_review_resolve.png)
-
-如果特定的待处理注释将解决或取消解决该线程，它将显示在待处理注释本身上.
-
-[![Resolve status](img/83da8fe833233875ee4fe28fa21eb1dd.png)](img/mr_review_resolve2.png)
-
-[![Unresolve status](img/ce6315abe3d0bf8a315febe4ab497312.png)](img/mr_review_unresolve.png)
-
-### Submitting a review[](#submitting-a-review "Permalink")
+### 提交评审[](#submitting-a-review "Permalink")
 
 If you have any comments that have not been submitted, you will see a bar at the bottom of the screen with two buttons:
 

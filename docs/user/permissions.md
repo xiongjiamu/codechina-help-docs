@@ -1,18 +1,16 @@
 # 用户权限[](#用户权限 "Permalink")
 
-用户具有不同的能力，具体取决于他们在特定组或项目中具有的访问级别. 如果用户既属于项目组又属于项目本身，则使用最高权限级别.
+不同的用户具有不同的权限，权限取决于他们在特定组或项目中具有的访问级别。 如果用户既属于项目组又属于项目本身，则使用最高权限级别。
 
-在公共和内部项目上，不执行来宾角色. 所有用户将能够：
+在公共项目上，不启用Guest角色， 所有用户都能够：
 
-*   创造问题.
-*   留言.
-*   克隆或下载项目代码.
+*   创造 Issue
+*   留言
+*   克隆或下载项目代码
 
-当成员离开团队的项目时，所有分配的" [问题"](project/issues/index.html)和" [合并请求"](project/merge_requests/index.html)将自动取消分配.
+当成员离开团队的项目时，所有分配给他的" [Issue"](project/issues/index.html)及" [合并请求"](project/merge_requests/index.html)将自动取消分配。
 
-GitLab [管理员拥有](../administration/index.html)所有权限.
-
-要添加或导入用户，可以遵循[项目成员文档](project/members/index.html) .
+要添加或导入用户，可以遵循[项目成员文档](project/members/index.html)。
 
 ## Principles behind permissions[](#principles-behind-permissions "Permalink")
 

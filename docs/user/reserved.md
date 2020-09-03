@@ -2,11 +2,11 @@
 
 出于系统安全、商标及知识保护等方面的考虑，在设置用户或组织的命名空间时并非所有的名称都会被允许。
 
-有关不允许用作组名或项目名的单词的列表，请参阅`TOP_LEVEL_ROUTES` ， `PROJECT_WILDCARD_ROUTES`和`GROUP_ROUTES`列表下的[`path_regex.rb`文件](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/path_regex.rb) ：
+有关不允许用作组名或项目名的单词的列表，请参阅`TOP_LEVEL_ROUTES` ， `PROJECT_WILDCARD_ROUTES`和`GROUP_ROUTES`列表下的[`path_regex.rb`](https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/path_regex.rb)文件：
 
-*   `TOP_LEVEL_ROUTES` ：是保留为用户名或顶级组的名称
-*   `PROJECT_WILDCARD_ROUTES` ：是为子组或项目保留的名称.
-*   `GROUP_ROUTES` ：是为所有组或项目保留的名称.
+*   `TOP_LEVEL_ROUTES` ：是为用户名或顶级组织保留的名称
+*   `PROJECT_WILDCARD_ROUTES` ：是为子组或项目保留的名称
+*   `GROUP_ROUTES` ：是为所有组或项目保留的名称
 
 ## 预留的项目名[](#reserved-project-names "Permalink")
 
