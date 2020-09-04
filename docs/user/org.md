@@ -5,8 +5,6 @@
 *   将相关项目组装在一起
 *   授予成员一次访问多个项目的权限
 
-~~有关 组的视频介绍，请参见[GitLab 大学：存储库，项目和组](https://www.youtube.com/watch?v=4TWfh1aKHHw)~~
-
 组也可以嵌套在[子组织中](subgroups/index.html) 。
 
 通过单击顶部导航中的**组织>您的组织**来找到您的组织。
