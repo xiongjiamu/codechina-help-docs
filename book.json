@@ -19,7 +19,9 @@
         "chapter-fold",
         "-lunr", 
         "-search", 
-        "search-pro"
+        "search-pro",
+        "mermaid-gb3",
+        "advanced-emoji"
     ],
     "variables": {
         "themeFexa":{
