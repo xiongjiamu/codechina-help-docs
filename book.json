@@ -18,10 +18,8 @@
         "tbfed-pagefooter",
         "chapter-fold",
         "-lunr", 
-        "-search", 
-        "search-pro",
-        "mermaid-gb3",
-        "advanced-emoji"
+        "-search",
+        "search-pro"
     ],
     "variables": {
         "themeFexa":{

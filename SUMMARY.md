@@ -47,7 +47,7 @@
     * [关联Issue](docs/user/project/issues/crosslinking.md)
     * [截止日期](docs/user/project/issues/due-date.md)
     * [看板](docs/user/project/kanban.md)
-    * [Issue操作](docs/user/project/issues/actions.md)
+    * [操作Issue](docs/user/project/issues/actions.md)
     * [标签](docs/user/project/label.md)
     * [管理Issue](docs/user/project/issues/manage.md)
     * [里程碑](docs/user/project/milestone.md)
