@@ -1,28 +1,22 @@
 # 举报用户[](#举报用户 "Permalink")
 
-您可以将其他 GitLab 用户的滥用情况报告给 GitLab 管理员.
-
-然后，GitLab 管理员[可以选择](admin_area/abuse_reports.html) ：
-
-*   删除用户，这会将其从实例中删除.
-*   阻止用户，这将拒绝他们访问实例.
-*   或删除报告，以保留用户对实例的访问权限.
+您可以举报其他用户的违规行为。我们的审核人员在收到您的举报后会对举报内容进行核实，并对被举报用户进行相应的处理。
 
 您可以通过以下方式报告用户：
 
 - [举报用户](#举报用户)
-  - [Reporting abuse through a user’s profile](#reporting-abuse-through-a-users-profile)
+  - [从个人主页举报用户](#从个人主页举报用户)
   - [Reporting abuse through a user’s comment](#reporting-abuse-through-a-users-comment)
   - [Reporting abuse through a user’s issue or merge request](#reporting-abuse-through-a-users-issue-or-merge-request)
   - [Managing abuse reports](#managing-abuse-reports)
 
-## Reporting abuse through a user’s profile[](#reporting-abuse-through-a-users-profile "Permalink")
+## 从个人主页举报用户[](#reporting-abuse-through-a-users-profile "Permalink")
 
-要从用户的个人资料页面举报滥用行为，请执行以下操作：
+可以通过以下步骤从用户的个人资料页面举报滥用行为：
 
-1.  单击用户个人资料右上方的感叹号报告滥用按钮.
-2.  完成滥用情况报告.
-3.  Click the **发送报告** button.
+1.  单击用户个人头像下方的感叹号报告滥用按钮
+2.  完成滥用情况报告
+3.  单价**发送报告** 按钮
 
 ## Reporting abuse through a user’s comment[](#reporting-abuse-through-a-users-comment "Permalink")
 
