@@ -13,7 +13,7 @@
 *   `/due <date>` ：设置到期日， 有效的`<date>`示例包括`in 2 days` 、`this Friday`和`December 31st` 
 *   `/remove_due_date` ：删除到期日
 
-## 利用好截止日期[](#making-use-of-due-dates "Permalink")
+## 截止日期的用法[](#making-use-of-due-dates "Permalink")
 
 设置了截止日期的 Issue 可以在 Issue 跟踪器中轻松查看到，并在它们旁边显示了截止日期，日期过期的 Issue 会将图标和日期显示为红色。您可以从右侧的下拉菜单中按截止日期倒叙/顺序对 Issue 进行排序。
 
