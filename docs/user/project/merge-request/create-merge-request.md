@@ -1,16 +1,16 @@
 # 创建合并请求[](#创建合并请求 "Permalink")
 
-在创建合并请求之前，请通读"合并请求"的[简介，](getting_started.html)以熟悉概念，术语并了解如何使用它们.
+在创建合并请求之前，请通读"合并请求"的[简介，](getting_started.html)以熟悉概念、术语，并了解如何使用它们。
 
-每个合并请求都从创建一个分支开始. 您可以通过[命令行](#new-merge-request-from-your-local-environment) ，Git CLI 应用程序或[GitLab UI](#new-merge-request-from-a-new-branch-created-through-the-ui)在本地进行操作.
+每个合并请求都从创建一个分支开始，您可以通过[命令行](#new-merge-request-from-your-local-environment) ，Git CLI 应用程序或[CODEChina WEB](#new-merge-request-from-a-new-branch-created-through-the-ui)完成分支的创建。
 
-本文档介绍了创建合并请求的几种方法.
+本文档介绍了创建合并请求的几种方法。
 
-启动新的合并请求时，无论使用哪种方法，都将转到" [**新合并请求"**页面，](#new-merge-request-page)以在其中添加有关合并请求的信息.
+启动新的合并请求时，无论使用哪种方法，都将转到[**新合并请求**](#new-merge-request-page)页面，并在其中添加合并请求相关的信息。
 
-如果将新分支推送到 GitLab，也不管使用哪种方法，都可以单击[**Create Merge Request**](#create-merge-request-button)按钮并从此处启动合并请求.
+如果将新分支推送到 CODEChina，不论使用哪种方法，都可以单击[**创建合并请求**](#create-merge-request-button)按钮并从此处启动合并请求。
 
-## New Merge Request page[](#new-merge-request-page "Permalink")
+## 新建合并请求[](#new-merge-request-page "Permalink")
 
 在" **新合并请求"**页面上，首先填写**合并请求**的标题和描述. 如果分支上已经有提交，则标题将用第一条提交消息的第一行预填充，描述将用提交消息中的任何其他行预填充. 在所有情况下，标题都是唯一的必填字段.
 
