@@ -23,4 +23,4 @@
 
 ## 通过 WIP 过滤合并请求[](#includingexcluding-wip-merge-requests-when-searching "Permalink")
 
-查看/搜索合并请求列表时，可以通过在搜索框中添加" WIP"过滤器，然后选择"是"（包括）或"否"（排除）来选择包括或排除 WIP 合并请求。
+查看/搜索合并请求列表时，可以通过在搜索框中添加" WIP"过滤器，然后选择"是"（包括）或"否"（排除）来选择包括或排除 WIP 合并请求 
