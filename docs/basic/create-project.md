@@ -1,6 +1,6 @@
 # 新建项目[](#create-a-project "Permalink")
 
-开发中大多数工作都在一个[项目](../user/project/index.html)完成，文件和代码都保存在项目中，并且大多数功能都将在项目范围内使用。
+开发中大多数工作都在一个[项目](/../user/repo.md)完成，文件和代码都保存在项目中，并且大多数功能都将在项目范围内使用。
 
 ## 新建一个项目[](#create-a-project "Permalink")
 
