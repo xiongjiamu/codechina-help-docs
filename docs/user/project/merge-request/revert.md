@@ -1,10 +1,10 @@
 # Revert[](#revert "Permalink")
 
-您可以使用 Git 的强大功能，通过在合并请求和提交详细信息中单击" **还原"**按钮来[还原任何提交](https://git-scm.com/docs/git-revert "Git 恢复文档") .
+您可以使用 Git 的强大功能，通过在合并请求和提交详细信息中单击 **Revert**按钮来[还原任何提交](https://git-scm.com/docs/git-revert "Git 恢复文档") 。
 
-## Reverting a merge request[](#reverting-a-merge-request "Permalink")
+## Reverting 合并请求[](#reverting-a-merge-request "Permalink")
 
-**注意：** " **还原"**按钮仅可用于自 GitLab 8.5 起创建的合并请求. 但是，您仍然可以通过从"提交"页面列表中还原合并提交来还原合并请求.**注意：**仅对使用合并方法"合并提交"的项目显示" **还原"**按钮，该方法可以在项目的**"设置">"常规">"合并请求"**下**设置** . 无法通过 MR 视图还原[快进提交](fast_forward_merge.html) .
+**注意：**仅对使用合并方法"合并提交"的项目显示 **Revert** 按钮，该方法可以在项目的**"项目设置">"常规">"合并请求"**下**设置**，无法通过 合并请求视图还原[快进提交](fast_forward_merge.html)。
 
 合并请求合并后，将有一个**还原**按钮可用于还原该合并请求引入的更改.
 
