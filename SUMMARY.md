@@ -32,7 +32,6 @@
         * [Git属性](docs/user/project/git-attr.md)
         * [文件指责](docs/user/project/repo/blame.md)
         * [文件历史记录](docs/user/project/repo/history.md)
-        * [镜像仓库](docs/user/project/repo/mirror.md)
         * [保护分支](docs/user/project/protected-branch.md)
         * [保护Tag](docs/user/project/protected-tag.md)
         * [减少仓库大小](docs/user/project/repo/reduce-repo-size.md)
