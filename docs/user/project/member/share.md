@@ -1,10 +1,10 @@
 # 与组织共享项目[](#share-projects-with-other-groups "Permalink")
 
-您可以与其他[组织](../../group/index.html)共享项目，这样就可以通过一个操作将一个组织的全部用户添加到项目中。
+您可以与其他组织共享项目，这样就可以通过一个操作将一个组织的全部用户添加到项目中。
 
 ## 用户项目集合[](#groups-as-collections-of-users "Permalink")
 
-组织主要用于[创建项目集合](../../group/index.html) ，但是您还可以利用组织的以下特定：组定义了*用户*集合，即组成员。
+组织主要用于创建项目集合，但是您还可以利用组织的以下特定：组定义了*用户*集合，即组成员。
 
 ## 与组成员共享项目[](#sharing-a-project-with-a-group-of-users "Permalink")
 
@@ -33,6 +33,6 @@
 
 ## 禁用与组织共享项目[](#share-project-with-group-lock "Permalink")
 
-可以禁用与组织共享项目以防止一个组织中[的项目与另一个组共享一个项目](../members/share_project_with_groups.html) ，这样可以更严格地控​​制项目访问。
+可以禁用与组织共享项目以防止一个组织中的项目与另一个组共享一个项目。
 
 了解更多有关[使用组锁共享的信息](/docs/user/org.md#锁定与组织共享功能) 
