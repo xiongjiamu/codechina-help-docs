@@ -2,7 +2,7 @@
 
 如果合并请求尚未准备好进行合并（可能是由于持续的开发或需要开放讨论），则可以将其标记为**Draft**来阻止在合并之前接受该合并请求，**Draft**合并请求的"合并"按钮将会被禁用，从而防止其被合并，并且在删除"**Draft: / WIP:**"标志之前它将一直保持禁用都状态。
 
-[![Blocked Merge Button](/../../docs/img/draft_blocked_merge_button_v13_2.png)](/docs/img/draft_blocked_merge_button_v13_2.png)
+[![Blocked Merge Button](/docs/img/draft_blocked_merge_button_v13_2.png)](/docs/img/draft_blocked_merge_button_v13_2.png)
 
 ## 给合并请求添加 Draft/WIP 标记[](#adding-the-draft-flag-to-a-merge-request "Permalink")
 
