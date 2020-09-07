@@ -6,7 +6,7 @@
 
 ## 联系我们
 
-- [点此向 CODEChina 产品提交 issue](https://codechina.csdn.net/codechina/beta/~/issues)
+- [点此向 CODEChina 产品提交 issue](https://codechina.csdn.net/codechina/help-docs/-/issues)
 
 - CODEChina微信群(1)
 

@@ -8,26 +8,26 @@
 
 合并请求合并后，将有一个**还原**按钮可用于还原该合并请求引入的更改.
 
-[![Revert Merge Request](img/fe7d77556848be98a93c7b6516b0e6f8.png)](img/cherry_pick_changes_mr.png)
+[![Revert Merge Request](/docs/img/cherry_pick_changes_mr.png)](/docs//docs/img/cherry_pick_changes_mr.png)
 
-单击该按钮后，将出现一个模式，您可以在其中选择将更改直接还原到所选分支中，也可以选择使用还原更改创建新的合并请求.
+单击该按钮后，将出现一个弹窗，您可以在其中选择将更改直接还原到所选分支中，也可以选择使用还原更改创建新的合并请求。
 
-合并请求恢复后，" **恢复"**按钮将不再可用.
+合并请求 Revert 后，**Revert**按钮将不再可用。
 
-## Reverting a commit[](#reverting-a-commit "Permalink")
+## Reverting 提及[](#reverting-a-commit "Permalink")
 
-您可以从提交详细信息页面还原提交：
+您可以从提交详细信息页面 Revert 提交：
 
-[![Revert commit](img/b4e821b8b83e29e837f01f4620e557b7.png)](img/cherry_pick_changes_commit.png)
+[![Revert commit](/docs/img/cherry_pick_changes_commit_revert.png)](/docs/img/cherry_pick_changes_commit_revert.png)
 
-与还原合并请求类似，您可以选择将更改直接还原到目标分支中，也可以选择创建新的合并请求以还原更改.
+与 Revert 合并请求类似，您可以选择将更改直接还原到目标分支中，也可以选择创建新的合并请求以还原更改。
 
-恢复提交后，" **恢复"**按钮将不再可用.
+提交 Revert 后，** Revert **按钮将不再可用。
 
-请注意，还原合并提交时，主线将始终是第一父级. 如果要使用其他主线，则需要从命令行执行.
+请注意，Revert 合并提交时，主线将始终是第一父级，如果要使用其他主线，则需要从 git 客户端行执行。
 
 这是一个使用第二个父级作为主线还原合并提交的快速示例：
 
-```
+```markdown
 git revert -m 2 7a39eb0 
 ```
