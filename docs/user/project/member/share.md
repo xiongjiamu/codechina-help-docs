@@ -35,4 +35,4 @@
 
 可以禁用与组织共享项目以防止一个组织中[的项目与另一个组共享一个项目](../members/share_project_with_groups.html) ，这样可以更严格地控​​制项目访问。
 
-了解更多有关[使用组锁共享的信息](../../group/index.html#share-with-group-lock) 
+了解更多有关[使用组锁共享的信息](/docs/user/org.md#锁定与组织共享功能) 
