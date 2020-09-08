@@ -8,7 +8,7 @@
 
 | 基础入门 | 基本入门 |
 | --- | --- |
-| [**用户文件**](user)熟悉CODEChina 中的功能和概念. |[**是 Git 和 GitLab/GitHub 的新手吗？**](#刚开始使用git吗)我们有资源可以帮助您入门 |
+| [**用户文件**](/docs/user.md)熟悉CODEChina 中的功能和概念. |[**是 Git 和 GitLab/GitHub 的新手吗？**](#刚开始使用gitcodechinagitlabgithub)我们有资源可以帮助您入门 |
 | [**为 CODEChina 做贡献**](#为codechina开源做贡献)为CODEChina开源贡献力量！ | [**从另一个平台进入 CODEChina？**](#从另一个平台进入到codechina)请查阅我们的便捷指南 |
 
 
