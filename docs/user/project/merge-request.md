@@ -45,21 +45,19 @@ MR 还包含导航选项卡，从中可以查看线程上正在进行的讨论�
 
 ## 新建合并请求[](#creating-merge-requests "Permalink")
 
-Learn [how to create a merge request](creating_merge_requests.html).
+点击了解 [如何创建一个新的合并请求](/docs/user/project/merge-request/create-merge-request.md)
 
-## Reviewing and managing merge requests[](#reviewing-and-managing-merge-requests "Permalink")
+## 管理和查看合并请求[](#reviewing-and-managing-merge-requests "Permalink")
 
-查看可使用的功能来[查看和管理合并请求](reviewing_and_managing_merge_requests.html) .
+查看和管理合并请求
 
-## Testing and reports in merge requests[](#testing-and-reports-in-merge-requests "Permalink")
+## 在合并请求中测试和报告[](#testing-and-reports-in-merge-requests "Permalink")
 
-了解有关合并请求中的[测试](testing_and_reports_in_merge_requests.html)选项[和报告](testing_and_reports_in_merge_requests.html)更改的信息.
+有关合并请求中的测试选项和报告更改的信息
 
-## Authorization for merge requests[](#authorization-for-merge-requests "Permalink")
+## 合并请求认证[](#authorization-for-merge-requests "Permalink")
 
-使用 GitLab 进行合并请求的主要方法有两种：
+使用 CODEChina 进行合并请求的主要方法有两种：
 
-1.  在单个存储库中使用[受保护的分支](../protected_branches.html)
+1.  在单个存储库中使用[受保护的分支](/docs/user/project/protected-branch.md)
 2.  使用权威项目的分支
-
-[Learn more about the authorization for merge requests.](authorization_for_merge_requests.html)

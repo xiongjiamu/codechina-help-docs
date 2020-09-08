@@ -32,8 +32,8 @@
 
 在" Issue "讨论中，输入`@l`将显示以下弹出列表，需要注意的是这里并不包括用户`shelba` ，因为该列表仅包含与问题最相关的 5 个用户。
 
-[![Popup list which includes users whose username or name contains the letter `l`](img/autocomplete_characters_example1_v12_0.png)](/docs/img/autocomplete_characters_example1_v12_0.png)
+[![Popup list which includes users whose username or name contains the letter `l`](/docs/img/autocomplete_characters_example1_v12_0.png)](/docs/img/autocomplete_characters_example1_v12_0.png)
 
 如果继续输入`@le` ，弹出列表将更改为以下内容。现在，弹出窗口仅包括用户名中出现`le`或用户名中的单词的用户。
 
-[![Popup list which includes users whose username or name contains the string `le`](img/autocomplete_characters_example2_v12_0.png)](/docs/img/autocomplete_characters_example2_v12_0.png)
+[![Popup list which includes users whose username or name contains the string `le`](/docs/img/autocomplete_characters_example2_v12_0.png)](/docs/img/autocomplete_characters_example2_v12_0.png)

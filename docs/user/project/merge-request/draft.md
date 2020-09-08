@@ -10,7 +10,7 @@
 
 *   将`[Draft]` ， `Draft:`或`(Draft)`到合并请求标题的开头，单击标题框下的" **以草稿开始标题：** "，在编辑合并请求的描述时将具有相同的效果
 *   **不推荐使用**将`[WIP]`或`WIP:`添加到合并请求标题的开头，**WIP**仍然有效，但我们推荐使用**Draft**
-*   在合并请求的讨论中添加`/wip` [快速操作](../quick_actions.html#quick-actions-for-issues-merge-requests-and-epics)注释 ，可以重复进行并切换合并请求的状态。请注意，注释中的任何其他文本都将被丢弃
+*   在合并请求的讨论中添加`/wip` [快速操作](/docs/user/project/quick-actions.md#quick-actions-for-issues-merge-requests-and-epics)注释 ，可以重复进行并切换合并请求的状态。请注意，注释中的任何其他文本都将被丢弃
 *   将`draft:`或`Draft:`添加到针对合并请求的源分支的提交消息的开头，这不会切换合并请求的状态，并且在另一次提交中再次执行将无效
 
 ## 移除合并请求中的 Draft/WIP 标记[](#removing-the-draft-flag-from-a-merge-request "Permalink")
@@ -18,7 +18,7 @@
 与上述类似，当准备合并请求时，可以通过以下几种方式移除" `Draft`标记：
 
 *   从合并请求标题的开头删除`[Draft]` ， `Draft:`或`(Draft)` ，在编辑合并请求的描述时，在标题框下单击**从标题中删除草稿：前缀** ，将具有相同的效果
-*   在合并请求的讨论中添加`/wip` [快速操作](../quick_actions.html#quick-actions-for-issues-merge-requests-and-epics) 注释，可以重复进行并切换合并请求的状态。请注意，注释中的任何其他文本都将被丢弃
+*   在合并请求的讨论中添加`/wip` [快速操作](/docs/user/project/quick-actions.md#quick-actions-for-issues-merge-requests-and-epics) 注释，可以重复进行并切换合并请求的状态。请注意，注释中的任何其他文本都将被丢弃
 *   点击靠近合并请求描述底部的*移除 WIP 状态**按钮，该按钮对至少具有 Developer 权限的用户才可见
 
 ## 通过 WIP 过滤合并请求[](#includingexcluding-wip-merge-requests-when-searching "Permalink")

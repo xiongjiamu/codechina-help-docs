@@ -1,4 +1,4 @@
-# 描述模板[](#discription-template "Permalink")
+# 描述模板[](#description-template "Permalink")
 
 我们都知道，项目开发人员更有可能及时解决提交的 Issue。使用描述模板，您可以为 Issue 定义特定的上下文的模板，并为项目合并请求描述字段，并帮助从 Issue 中过滤掉许多不必要的噪音。
 

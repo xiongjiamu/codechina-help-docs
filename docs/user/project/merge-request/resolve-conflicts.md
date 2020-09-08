@@ -6,7 +6,7 @@
 
 在解决所有冲突之前，系统将阻止合并请求。冲突可以在本地解决，许多情况下在 CODEChina 网页上也可以解决（有关何时可用的信息，请参见可解决的[冲突](#conflicts-available-for-resolution) ）。
 
-[![Merge request widget](/../../docs/img/merge_request_widget.png)](img/merge_request_widget.png)
+[![Merge request widget](/docs/img/merge_request_widget.png)](/docs/img/merge_request_widget.png)
 
 **注意：** CODEChina 通过在未自动合并到目标分支的源分支中创建合并提交来解决冲突，这样可以在合并更改之前在源分支对合并提交进行检查和测试，从而在更改进入目标分支前防止没有检查或破坏构建导致的意外。
 
@@ -14,7 +14,7 @@
 
 单击此按钮将显示有冲突的文件列表，突出显示冲突部分：
 
-[![Conflict section](/../../docs/img/conflict_section.png)](img/conflict_section.png)
+[![Conflict section](/docs/img/conflict_section.png)](/docs/img/conflict_section.png)
 
 当所有冲突都标记为使用"我们的"或"他们的"时，则可以解决冲突。这将执行合并请求的目标分支到源分支的合并，并使用选择的选项解决冲突。如果源分支是`feature` ，目标分支是`master` ，则类似于执行`git checkout feature; git merge master` `git checkout feature; git merge master`本地`git checkout feature; git merge master` 。
 
@@ -22,7 +22,7 @@
 
 合并冲突编辑模式可以让您在 CODEChina 界面中解决更复杂的合并冲突，比如需要用户手动修改文件才能解决的冲突。使用**内联编辑**按钮打开编辑器. 确定更改后，请单击**提交到源分支**按钮。
 
-[![Merge conflict editor](/../../docs/img/merge_conflict_editor.png)](img/merge_conflict_editor.png)
+[![Merge conflict editor](/docs/img/merge_conflict_editor.png)](/docs/img/merge_conflict_editor.png)
 
 ## 可解决的冲突[](#conflicts-available-for-resolution "Permalink")
 

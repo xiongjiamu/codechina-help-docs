@@ -71,7 +71,7 @@
     git push origin --force --tags 
     ```
 
-    [受保护的标签](../protected_tags.html)将导致此操作失败. 要继续，您必须删除标签保护，推送，然后重新启用受保护的标签.
+    [受保护的标签](/docs/user/project/protected-tag.md)将导致此操作失败. 要继续，您必须删除标签保护，推送，然后重新启用受保护的标签.
 
 7.  手动执行项目整理
 
@@ -93,7 +93,7 @@
 
 1.  使用受支持的程序包管理器或从源代码[安装`git filter-repo`](https://github.com/newren/git-filter-repo/blob/main/INSTALL.md) 
 
-2.  [从项目中](../settings/import_export.html#exporting-a-project-and-its-data)生成一个新的[导出](../settings/import_export.html#exporting-a-project-and-its-data)并下载
+2.  [从项目中](/docs/user/project/import.md#exporting-a-project-and-its-data)生成一个新的[导出](/docs/user/project/import.md#exporting-a-project-and-its-data)并下载
 
 3.  使用`tar`解压缩备份：
 

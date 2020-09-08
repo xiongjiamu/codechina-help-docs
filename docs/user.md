@@ -43,7 +43,7 @@ CODEChina 是一个基于 Git 的平台，它集成了许多用于软件开发�
 
 ### Markdown[](#markdown "Permalink")
 
-您可以在[markdown](markdown.html)中了解如何在主题、注释、Issue 及合并请求以及所有支持markdonw的其他地方来使用markdown填写你的内容。
+您可以在[markdown](/docs/user/markdown.md)中了解如何在主题、注释、Issue 及合并请求以及所有支持markdonw的其他地方来使用markdown填写你的内容。
 
 ## 待办事项[](#todo "Permalink")
 

@@ -1,12 +1,12 @@
 # 评审及管理合并请求[](#评审及管理合并请求 "Permalink")
 
-合并请求是在项目中更改文件的主要方法，通过[创建并提交合并请求](creating_merge_requests.html)来提出更改，然后将其审核并接受（或拒绝）。
+合并请求是在项目中更改文件的主要方法，通过[创建并提交合并请求](/docs/user/project/merge-request/create-merge-request.md)来提出更改，然后将其审核并接受（或拒绝）。
 
 ## 评审合并请求[](#view-project-merge-requests "Permalink")
 
-打开 **项目>合并请求**列表，可以查看项目中的所有**合并请求**，并且您可以快速按打开和关闭可用的选项卡来进行过滤，您还可以[搜索和过滤结果](../../search/index.html#filtering-issue-and-merge-request-lists)。
+打开 **项目>合并请求**列表，可以查看项目中的所有**合并请求**，并且您可以快速按打开和关闭可用的选项卡来进行过滤，您还可以[搜索和过滤结果](/docs/user/search.md#filtering-issue-and-merge-request-lists)。
 
-[![Project merge requests list view](img/project_merge_requests_list_view.png)](img/project_merge_requests_list_view.png)
+[![Project merge requests list view](/docs/img/project_merge_requests_list_view.png)](/docs/img/project_merge_requests_list_view.png)
 
 ## 半线性历史合并请求[](#semi-linear-history-merge-requests "Permalink")
 
@@ -35,7 +35,7 @@ Diff 视图包含以下内容:
 
 在 **更改**选项卡中查看更改时，可以使用文件树或文件列表来浏览差异。 在具有许多更改的大型差异中滚动时，可以使用文件树或文件列表快速跳转到任何更改的文件。
 
-[![Merge request diff file navigation](/docs/img/merge_request_diff_file_navigation.png)](docs/img/merge_request_diff_file_navigation.png)
+[![Merge request diff file navigation](/docs/img/merge_request_diff_file_navigation.png)](/docs/img/merge_request_diff_file_navigation.png)
 
 ### 逐个文件查看 diff[](#file-by-file-diff-navigation "Permalink")
 
@@ -43,7 +43,7 @@ Diff 视图包含以下内容:
 
 从那里，在查看合并请求的" **更改"**选项卡时，一次只能看到一个文件. 然后，您可以单击按钮上**一个**和**下一个**以查看其他已更改的文件.
 
-[![File-by-file diff navigation](/docs/img/file_by_file_v13_2.png)](docs/img/file_by_file_v13_2.png)
+[![File-by-file diff navigation](/docs/img/file_by_file_v13_2.png)](/docs/img/file_by_file_v13_2.png)
 
 ### 合并请求提交导航[](#merge-requests-commit-navigation "Permalink")
 
@@ -73,12 +73,12 @@ Diff 视图包含以下内容:
 
 | 功能 | 描述 |
 | --- | --- |
-| [批量编辑合并请求](../project/bulk_edit.md) | 同时更新多个合并请求的属性 |
-| [Cherry-pick 变更](cherry_pick.md) | 只需在合并的合并请求或提交中单击**Cherry-pick**按钮，即可在页面中 Cherry-pick 任何**选择** |
-| [快进合并](fast_forward.md) | 有关线性 Git 历史记录以及接受合并请求而不创建合并提交的方法 |
-| [合并请求版本](versions.md) | 选择并比较合并请求差异的不同版本 |
-| [解决冲突](resolve_conflicts.md) |可以在界面中来解决某些合并请求冲突 |
-| [Revert 更改](revert.md) | 从合并请求中的任何提交还原更改 |
+| [批量编辑合并请求](/docs/user/project/bulk-edit.md) | 同时更新多个合并请求的属性 |
+| [Cherry-pick 变更](/docs/user/project/merge-request/cherry-pick.md) | 只需在合并的合并请求或提交中单击**Cherry-pick**按钮，即可在页面中 Cherry-pick 任何**选择** |
+| [快进合并](/docs/user/project/merge-request/fast-forward.md) | 有关线性 Git 历史记录以及接受合并请求而不创建合并提交的方法 |
+| [合并请求版本](/docs/user/project/merge-request/versions.md) | 选择并比较合并请求差异的不同版本 |
+| [解决冲突](/docs/user/project/merge-request/resolve-conflicts.md) |可以在界面中来解决某些合并请求冲突 |
+| [Revert 更改](/docs/user/project/merge-request/revert.md) | 从合并请求中的任何提交还原更改 |
 
 ## Tips[](#tips "Permalink")
 

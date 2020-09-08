@@ -17,7 +17,7 @@
 *   拉取请求评论
 *   定期发布和请求注释
 
-保留对拉取请求和问题的引用，并且每个导入的存储库都保持可见性级别，除非该[可见性级别受到限制](../../../public_access/public_access.html#restricting-the-use-of-public-or-internal-projects) ，在这种情况下，它默认为默认项目可见性。
+保留对拉取请求和问题的引用，并且每个导入的存储库都保持可见性级别，除非该可见性级别受到限制 ，在这种情况下，它默认为默认项目可见性。
 
 ## 实现原理[](#how-it-works "Permalink")
 

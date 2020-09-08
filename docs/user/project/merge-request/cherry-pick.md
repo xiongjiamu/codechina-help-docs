@@ -6,7 +6,7 @@ Cherry-pick 是 Git 中非常强大的一个功能，通过在合并请求和提
 
 合并请求合并后，将可以使用**Cherry-pick**按钮来选择该合并中需要引入的更改。
 
-[![Cherry-pick Merge Request](/../../docs/img/cherry_pick_changes_mr.png)](img/cherry_pick_changes_mr.png)
+[![Cherry-pick Merge Request](/docs/img/cherry_pick_changes_mr.png)](/docs/img/cherry_pick_changes_mr.png)
 
 单击该按钮后，会出现一个弹窗，将显示一个分支过滤器搜索框，您可以在其中选择：
 
@@ -17,13 +17,13 @@ Cherry-pick 是 Git 中非常强大的一个功能，通过在合并请求和提
 
 当您选择一个合并提交时，系统会向相关的合并请求讨论中添加系统注释，使新提交与现有合并请求相关联。
 
-每个部署的[关联合并请求列表](../../../api/deployments.html#list-of-merge-requests-associated-with-a-deployment)都将包括 Cherry-pick 的合并提交。
+每个部署的关联合并请求列表都将包括 Cherry-pick 的合并提交。
 
 ## Cherry-pick 一个提交[](#cherry-picking-a-commit "Permalink")
 
 您可以从提交详细信息页面中挑选一个提交：
 
-[![Cherry-pick commit](/../../docs/img/cherry_pick_changes_commit.png)](img/cherry_pick_changes_commit.png)
+[![Cherry-pick commit](/docs/img/cherry_pick_changes_commit.png)](/docs/img/cherry_pick_changes_commit.png)
 
 与选择合并请求类似，您可以选择将更改直接选择到目标分支中，也可以选择创建新的合并请求以选择更改。
 

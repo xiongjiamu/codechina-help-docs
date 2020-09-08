@@ -12,11 +12,11 @@
 
 1.  在创建或编辑合并请求时启用允许协助
 
-    [![Enable contribution](/../../docs/img/allow_collaboration.png)](img/allow_collaboration.png)
+    [![Enable contribution](/docs/img/allow_collaboration.png)](/docs/img/allow_collaboration.png)
 
 2.  创建合并请求后，您将看到允许可以合并到目标分支的成员的提交
 
-    [![Check that contribution is enabled](img/allow_collaboration_after_save.png)](img/allow_collaboration_after_save.png)
+    [![Check that contribution is enabled](/docs/img/allow_collaboration_after_save.png)](/docs/img/allow_collaboration_after_save.png)
 
 ## 上游项目成员推送代码至 Fork 项目[](#pushing-to-the-fork-as-the-upstream-member "Permalink")
 

@@ -4,7 +4,7 @@ Issue 是通过想法和计划进行协工作的基本要素。 [创建](#create
 
 ## 创建 Issue[](#create-a-new-issue "Permalink")
 
-创建新 Issue 时，系统将提示您填写 Issue 的[数据和字段](issue_data_and_actions.html)，如下所示。如果您清楚要分配给Issue 的值，则可以使用" [快速操作"](../quick_actions.html)功能输入相应的内容，而不用从列表中选择它们。
+创建新 Issue 时，系统将提示您填写 Issue 的数据和字段，如下所示。如果您清楚要分配给Issue 的值，则可以使用" [快速操作"](/docs/user/project/quick-actions.md)功能输入相应的内容，而不用从列表中选择它们。
 
 ### 获取新建 Issue 的表单[](#accessing-the-new-issue-form "Permalink")
 
@@ -17,7 +17,7 @@ Issue 是通过想法和计划进行协工作的基本要素。 [创建](#create
 
 ### 认识新建 Issue 的表单[](#elements-of-the-new-issue-form "Permalink")
 
-[![New issue from the issues list](/../../docs/img/new_issue_v13_2.png)](img/new_issue_v13_2.png)
+[![New issue from the issues list](/docs/img/new_issue_v13_2.png)](/docs/img/new_issue_v13_2.png)
 
 创建新 Issue 时，可以填写以下字段：
 
@@ -47,9 +47,9 @@ Issue 是通过想法和计划进行协工作的基本要素。 [创建](#create
 
 当提交或合并请求解决了一个或多个 Issue 时，在将提交或合并请求推送到项目的默认分支时将会自动关闭这些 Issue。
 
-如果提交消息或合并请求描述包含与[定义的模式](#default-closing-pattern)相匹配的文本，则匹配文本中引用的所有 Issue 均将被关闭。将提交推送到项目的[**默认**分支时](../repository/branches/index.html#default-branch) ，或者将提交或合并请求合并到默认分支时，Issue 就会自动关闭。
+如果提交消息或合并请求描述包含与[定义的模式](#default-closing-pattern)相匹配的文本，则匹配文本中引用的所有 Issue 均将被关闭。将提交推送到项目的[**默认**分支时](/docs/user/project/repo/branches.md#default-branch) ，或者将提交或合并请求合并到默认分支时，Issue 就会自动关闭。
 
-例如，如果合并请求描述中包含`Closes #4, #6, Related to #5`，则合并合并请求时问题`#4`和`#6`将自动关闭，但不会合并`#5`，只会将其标记为[相关 Issue](related_issues.html) ，但不会自动关闭。
+例如，如果合并请求描述中包含`Closes #4, #6, Related to #5`，则合并合并请求时问题`#4`和`#6`将自动关闭，但不会合并`#5`，只会将其标记为相关 Issue ，但不会自动关闭。
 
 如果 Issue 与 合并请求位于不同的代码仓库中，则需要提供完整的 Issue URL地址：
 
@@ -90,10 +90,10 @@ and https://codechina.csdn.net/group/otherproject/issues/23.
 
 #### 禁用自动关闭 Issue[](#disabling-automatic-issue-closing "Permalink")
 
-可以在[项目的设置中](../settings/index.html)禁用项目的自动关闭 Issue 功能。引用的问题仍将按原样显示，但不会自动关闭。
+可以在[项目的设置中](/docs/user/project/settings.md)禁用项目的自动关闭 Issue 功能。引用的问题仍将按原样显示，但不会自动关闭。
 
 这仅影响被新合并请求或提交关联的 Issue，已经解决的 Issue 仍然保持原样，禁用自动关闭 Issue 的设置仅影响当前项目中的合并请求，并不会阻止其他项目从通过跨项目的 Issue将其关闭。
 
 ## 删除 Issue[](#deleting-issues "Permalink")
 
-具有项目 [Owner](../../permissions.html) 权限的用户可以通过编辑 Issue 并单击删除按钮来删除 Issue。
+具有项目 [Owner](/docs/user/permissions.md) 权限的用户可以通过编辑 Issue 并单击删除按钮来删除 Issue。

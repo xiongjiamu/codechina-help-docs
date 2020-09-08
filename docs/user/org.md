@@ -5,11 +5,9 @@
 *   将相关项目组装在一起
 *   授予成员一次访问多个项目的权限
 
-组也可以嵌套在[子组织中](subgroups/index.html) 。
+组也可以嵌套在[子组织中](/docs/user/org/sub_org.md) 。
 
 通过单击顶部导航中的**组织>您的组织**来找到您的组织。
-
-[![GitLab Groups](img/53bcd8c2d2c69aceb7db6677802be6b1.png)](img/groups.png)
 
 **"组织"**页面显示：
 
@@ -31,7 +29,7 @@
 *   通过在同一[命名空间](#命名空间)下组织相关项目并将成员添加到顶级组，可以以较少的步骤授予对多个项目和多个团队成员的访问权限。
 *   通过创建小组并包括适当的成员，可以轻松地`@mention`所有团队中的问题并合并请求。
 
-例如，您可以为公司成员创建一个[组织](subgroups/index.html) ，并为每个单独的团队创建一个[子组织](subgroups/index.html). 假设您创建了一个名为`company-team` ，并且在该组中为各个团队`backend-team` ， `frontend-team`和`production-team`创建了子组。
+例如，您可以为公司成员创建一个[组织](/docs/user/org/sub_org.md) ，并为每个单独的团队创建一个[子组织](/docs/user/org/sub_org.md). 假设您创建了一个名为`company-team` ，并且在该组中为各个团队`backend-team` ， `frontend-team`和`production-team`创建了子组。
 
 *   从问题开始新的实现时，请添加评论： *" `@company-team` ，让我们开始吧！* *`@company-team/backend-team`您很高兴！"*
 *   当您的后端团队需要前端提供帮助时，他们会添加一条评论： *" `@company-team/frontend-team`您能在这里帮助我们吗？"*
@@ -61,29 +59,23 @@
 
 ## 组织内的Issue及合并请求[](#组织内的Issue及合并请求 "Permalink")
 
-Issue及合并请求是项目的一部分。对于组织，您可以在单个列表视图中查看所有[Issue](../project/issues/index.html#issues-list)，也可以查看组织中所有项目的[请求合并](../project/merge_requests/reviewing_and_managing_merge_requests.html#view-merge-requests-for-all-projects-in-a-group)。
+Issue及合并请求是项目的一部分。对于组织，您可以在单个列表视图中查看所有[Issue](/docs/user/project/issues.md#issues-list)，也可以查看组织中所有项目的请求合并。
 
 ### 批量编辑Issue及合并请求[](#批量编辑Issue及合并请求 "Permalink")
 
-有关详细信息，请参考[批量编辑Issue及合并请求](../group/bulk_editing/index.html) 。
+有关详细信息，请参考[批量编辑Issue及合并请求](/docs/user/project/bulk-edit.md) 。
 
 ## 新建一个组织[](#新建一个组织 "Permalink")
 
-> 有关不允许用作组名的单词列表，请参见[保留名称](../reserved_names.html) .
+> 有关不允许用作组名的单词列表，请参见[保留名称](/docs/user/reserved.md) 。
 
 通过以下方式，您可以创建一个新的组织：
 
 *   在顶部菜单中，依次单击" **组织"**和" **您的组织"** ，然后单击绿色按钮" **新建组织"** 
 
-    [![new group from groups page](img/7e5039b0d8fb74c5ea813e354f23493e.png)](img/new_group_from_groups.png)
-
 *   或者，在顶部菜单中，展开`+`号并选择**新建组织** 
 
-    [![new group from elsewhere](img/ee8ead7652026dd03a75e2551122350f.png)](img/new_group_from_other_pages.png)
-
 添加以下信息：
-
-[![new group information](img/ad2cdacdd36348cddf7d5c19d8940d5b.png)](img/create_new_group_info.png)
 
 1.  **组织名称**将自动填充 URL（自动填充不支持中文的组织名称）。（可选）您可以修改它，这是在组视图中显示的名称，该名称只能包含：
     *   字母数字字符
@@ -97,7 +89,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
     *   连接符`-`和点（不能以连接符`-`开头或以点结尾）
 3.  （可选）可以为新建的组织添加一段简单介绍，以便其他用户了解该组织
 4.  （可选）可以为新建的组织上传一个头像
-5.  选择新建的组织 [是否公开可见](../../public_access/public_access.html)
+5.  选择新建的组织是否公开可见
 
 
 ## 为组织添加一个用户[](#为组织添加一个用户 "Permalink")
@@ -106,9 +98,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 在**组织设置-组织成员设置**中将成员添加到组织，可以通过用户名或者注册邮箱来添加组织成员。
 
-[![add members to group](img/ece990045e1a7ae1237b5f2912a2df3e.png)](img/add_new_members.png)
-
-选择[权限级别](../permissions.html#permissions) ，然后添加新成员。您还可以设置该用户的到期日期。
+选择[权限级别](/docs/user/permissions.md#permissions) ，然后添加新成员。您还可以设置该用户的到期日期。
 
 假设一个有两个项目的组织：
 
@@ -123,22 +113,16 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 如果组织启用了该设置，则非组织成员用户可以请求成为组织的成员。在您要加入的组织页中，单击组织名称后面的**申请权限**按钮即可。
 
-[![Request access button](img/aa2dd1694d7e1573bbd49200ed1ccb04.png)](img/request_access_button.png)
-
 申请访问权限后：
 
 *   通过电子邮件将您的申请告知给组织的所有者（电子邮件将发送给最近活跃的组织所有者）
 *   任何组织所有者都可以在组组织成员设置页面上批准或拒绝您的申请
 
-[![Manage access requests](img/fd0991d7941fed77c4d82bd219ec713b.png)](img/access_requests_management.png)
-
 如果您在申请权限被批准之前改变了主意，只需单击" **撤回访问请求"**按钮即可。
-
-[![Withdraw access request button](img/a6d5e94df0d5d50038a0909603d69933.png)](img/withdraw_access_request_button.png)
 
 ## 变更组织的所有者[](#变更组织的所有者 "Permalink")
 
-组织的所有关系是指至少有一个组织成员拥有组织的 [所有者权限](../permissions.html#group-members-permissions)，一个组织至少需要一名所有者。
+组织的所有关系是指至少有一个组织成员拥有组织的 [ Owner ](/docs/user/permissions.md#group-members-permissions)，一个组织至少需要一名所有者。
 
 只有拥有一个所有者的组织可以变更组织的所有者。 可以通过以下方式变更组织唯一所有者：
 
@@ -148,7 +132,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 ## 移除组织成员[](#移除组织成员 "Permalink")
 
-只有[拥有所有者](../permissions.html#group-members-permissions)权限的[用户](../permissions.html#group-members-permissions)才能管理组织成员。
+只有[ Owner ](/docs/user/permissions.md#group-members-permissions)权限的[用户](/docs/user/permissions.md#group-members-permissions)才能管理组织成员。
 
 如果要移除的成员在该组中具有直接成员资格，则可以从该组织中移除该成员； 如果成员资格是从父组继承的，则该成员只能从父组中进行移除。
 
@@ -179,17 +163,12 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 有两种方法可以在组织中新建项目：
 
-*   选择一个组，单击**新建项目**按钮 。 然后，您可以继续[创建您的项目](../../basics/create-project.html) .
-
-    [![New project](img/ef67d77909a856277f9f2821fa0c18ea.png)](img/create_new_project_from_group.png)
-
+*   选择一个组，单击**新建项目**按钮 。 然后，您可以继续[创建您的项目](/docs/basic/create-project.md) 。
 *   在创建项目时，从下拉菜单中选择已经创建的组名称空间
-
-    [![Select group](img/674c1579957cca4a644bc90fb8fbb2f3.png)](img/select_group_dropdown.png)
 
 ### 项目创建权限[](#项目创建权限 "Permalink")
 
-默认情况下， [开发人员和维护人员](../permissions.html#group-members-permissions)可以在一个组下创建项目。
+默认情况下， [开发人员和维护人员](/docs/user/permissions.md#group-members-permissions)可以在一个组下创建项目。
 
 可以通过以下操作为特定组更改此项设置：
 
@@ -207,14 +186,9 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 *   组织已存档的项目
 *   组织的成员
 
-
-## 将项目移到组织中[](#将项目移到组织中 "Permalink")
-
-了解如何[将项目转移到组织中](../project/settings/index.html#transferring-an-existing-project-into-another-namespace) .
-
 ## 与组织共享一个项目[](#与组织共享一个项目 "Permalink")
 
-您可以[与组织共享您的项目](../project/members/share_project_with_groups.html)，并向所有组织成员立即授予对该项目的访问权限。
+您可以[与组织共享您的项目](/docs/user/project/member/share.md)，并向所有组织成员立即授予对该项目的访问权限。
 
 或者，您可以[锁定与组织共享功能](#锁定与组织共享功能) 。
 
@@ -242,7 +216,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 转移组织时，请注意：
 
-*   更改组织的父组织可能会产生一些副作用，具体的请参阅[更改存储库路径时的重定向](../project/index.html#redirects-when-changing-repository-paths) ；
+*   更改组织的父组织可能会产生一些副作用，具体的请参阅[更改存储库路径时的重定向](/docs/user/project.md#redirects-when-changing-repository-paths) ；
 *   您只能将组织/子组织转移到您管理的组织/子组织中；
 *   您必须手动更新本地存储库以指向新位置；
 *   如果将要转移的父组织的公开可见性设置低于当前父组织，那么待转移组织机器项目的公开可见性将会与即将要转移到的父组织保持一致；
@@ -251,9 +225,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 ## 组织设置[](#组织设置 "Permalink")
 
-创建组织后，在组织详情页您可以进入**组织设置**来对组织进行设置及管理：
-
-[![group settings](img/b98f1bb6205ce5c692946b81e8c78003.png)](img/group_settings.png)
+创建组织后，在组织详情页您可以进入**组织设置**来对组织进行设置及管理。
 
 ### 常规设置[](#常规设置 "Permalink")
 
@@ -261,7 +233,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 #### 变更组织的路径[](#变更组织的路径 "Permalink")
 
-变更组织的路径也可能会产生一些副作用，具体的请参考[重定向的行为](../project/index.html#redirects-when-changing-repository-paths) 。
+变更组织的路径也可能会产生一些副作用，具体的请参考[重定向的行为](/docs/user/project.md#redirects-when-changing-repository-paths) 。
 
 如果您要腾出路径，以便其他组织或用户可以使用该路径，由于名称和路径都必须是唯一的，因此您在变更路径的同时也可能需要重命名该组织。
 
@@ -272,7 +244,7 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 3.  在 **更改组织路径**下输入新的路径
 4.  点击 **变更组织路径**
 
-> **注意：**如果命名空间包含带有[Container Registry](../packages/container_registry/index.html)标记的项目，则无法重命名该空间，因为该项目无法移动。
+> **注意：**如果命名空间包含带有 Container Registry 标记的项目，则无法重命名该空间，因为该项目无法移动。
 
 > **提示：**如果要保留对原始名称空间的所有权并保护 URL 重定向，我们建议您新建一个群组并向其转移项目，而无需更改组织的路径或重命名用户名。
 
@@ -299,13 +271,11 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 
 #### 锁定与组织共享功能[](#锁定与组织共享功能 "Permalink")
 
-该功能可防止一个组织中的[项目与另一个组共享项目](../project/members/share_project_with_groups.html)，以便对项目访问进行更严格的控制。
+该功能可防止一个组织中的[项目与另一个组共享项目](/docs/user/project/member/share.md)，以便对项目访问进行更严格的控制。
 
 例如，假设您有两个不同的团队（A 组和 B 组）在一个项目中一起工作，并且要继承该组成员身份，您可以在 A 组和 B 组之间设置共享项目。**使用组锁共享**可以防止其中的任何项目群组与其他群组共享，从而确保只有合适的群组成员才能访问这些项目。
 
 要启用此功能，请打开组织设置页面， 选择 **禁止与其他组织共享项目**并点击**保存修改**。
-
-[![Checkbox for share with group lock](img/788efc08015bf62f608d47f16b49b4d7.png)](img/share_with_group_lock.png)
 
 #### 禁用电子邮件通知[](#禁用电子邮件通知 "Permalink")
 
@@ -332,4 +302,4 @@ Issue及合并请求是项目的一部分。对于组织，您可以在单个列
 ### 高级设置[](#高级设置 "Permalink")
 
 *   **项目** ：查看该组中的所有项目，将成员添加到每个项目，访问每个项目的设置，以及删除任何项目，所有操作均在同一屏幕上进行
-*   **Webhooks** ：为您的组配置[webhooks](../project/integrations/webhooks.html) 
+*   **Webhooks** ：为您的组配置 webhooks

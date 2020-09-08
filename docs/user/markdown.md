@@ -470,7 +470,7 @@ Second section content.
 
 ### Embedding metrics in GitLab Flavored Markdown[](#embedding-metrics-in-gitlab-flavored-markdown "Permalink")
 
-公制图表可以嵌入到 GitLab 风味 Markdown 中。 有关更多详细信息，请参见[在 GitLab 风格的 Markdown 中嵌入度量标准](../user/project/integrations/prometheus.html#embedding-metric-charts-within-gitlab-flavored-markdown) 。
+公制图表可以嵌入到 GitLab 风味 Markdown 中。 有关更多详细信息，请参见在 GitLab 风格的 Markdown 中嵌入度量标准 。
 
 ## Standard Markdown and extensions in GitLab[](#standard-markdown-and-extensions-in-gitlab "Permalink")
 
@@ -1016,15 +1016,13 @@ while the equation for the theory of relativity is E = mc<sup>2</sup>.
 
 #### 从电子表格中复制并粘贴到 Markdown[](#copy-from-spreadsheet-and-paste-in-markdown "Permalink")
 
-在 GitLab 12.7 中[引入](https://gitlab.com/gitlab-org/gitlab/-/issues/27205) .
-
 如果您使用电子表格软件（例如 Microsoft Excel，Google 表格或 Apple Numbers），则可以从电子表格中进行复制，GitLab 会将其粘贴为 Markdown 表格。例如，假设您具有以下电子表格：
 
-[![Copy from spreadsheet](/../../docs/img/markdown_copy_from_spreadsheet_v12_7.png)](img/markdown_copy_from_spreadsheet_v12_7.png)
+[![Copy from spreadsheet](/docs/img/markdown_copy_from_spreadsheet_v12_7.png)](/docs/img/markdown_copy_from_spreadsheet_v12_7.png)
 
 选择单元格并将其复制到剪贴板，打开一个 Markdown 并粘贴电子表格：
 
-[![Paste to Markdown table](/../../docs/img/markdown_paste_table_v12_7.png)](img/markdown_paste_table_v12_7.png)
+[![Paste to Markdown table](/docs/img/markdown_paste_table_v12_7.png)](/docs/img/markdown_paste_table_v12_7.png)
 
 ## 引用[](#references "Permalink")
 

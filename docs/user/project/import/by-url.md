@@ -9,4 +9,4 @@
 5.  单击**创建项目**开始导入过程
 6.  完成后，您将被重定向到新创建的项目
 
-[![Import project by repo URL](img/import_projects_from_repo_url.png)](img/import_projects_from_repo_url.png)
+[![Import project by repo URL](/docs/img/import_projects_from_repo_url.png)](/docs/img/import_projects_from_repo_url.png)

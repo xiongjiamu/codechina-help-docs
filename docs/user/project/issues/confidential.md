@@ -8,7 +8,7 @@
 
 创建新 Issue 时，可以在文本区域下方的复选框中将问题标记为机密 Issue。选中该框，然后点击" **提交问题"**按钮以创建 Issue。对于现有 Issue ，可以对其进行编辑，然后选中机密复选框，并点击**保存更改** 。
 
-[![Creating a new confidential issue](/../../docs/img/confidential_issues_create.png)](img/confidential_issues_create.png)
+[![Creating a new confidential issue](/docs/img/confidential_issues_create.png)](/docs/img/confidential_issues_create.png)
 
 ## 修改 Issue 的机密性[](#modifying-issue-confidentiality "Permalink")
 
@@ -20,7 +20,7 @@
 
 每次 Issue 机密性的更改也会被系统作为评论自动记录在 Issue 的历史记录中。
 
-[![Confidential issues system notes](/../../docs/img/confidential_issues_system_notes.png)](img/confidential_issues_system_notes.png)
+[![Confidential issues system notes](/docs/img/confidential_issues_system_notes.png)](/docs/img/confidential_issues_system_notes.png)
 
 ## 机密 Issue 区别[](#indications-of-a-confidential-issue "Permalink")
 
@@ -30,17 +30,17 @@
 
 在 Issue 列表页面视图中，您可以在标记为机密的问题旁边看到斜线图标
 
-[![Confidential issues index page](/../../docs/img/confidential_issues_index_page.png)](img/confidential_issues_index_page.png)
+[![Confidential issues index page](/docs/img/confidential_issues_index_page.png)](/docs/img/confidential_issues_index_page.png)
 
 * * *
 
 同样，在 Issue 详情页，您可以在 Issue 标题上方看到斜线图标，此外在下方的评论区域中也有一个提示框，表明您正在评论的 Issue 是机密的。
 
-[![Confidential issue page](/../../docs/img/confidential_issues_issue_page.png)](img/confidential_issues_issue_page.png)
+[![Confidential issue page](/docs/img/confidential_issues_issue_page.png)](/docs/img/confidential_issues_issue_page.png)
 
 Issue 详情页右边栏也有一个 机密性的标识：
 
-[![Sidebar confidential issue](/../../docs/img/sidebar_confidential_issue.png)](img/sidebar_confidential_issue.png)
+[![Sidebar confidential issue](/docs/img/sidebar_confidential_issue.png)](/docs/img/sidebar_confidential_issue.png)
 
 ## 机密 Issue 的访问权限[](#permissions-and-access-to-confidential-issues "Permalink")
 

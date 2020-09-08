@@ -1,6 +1,6 @@
 # 帮助文档
 
-*访问[codechina.csdn.net/docs，](codechina.csdn.net/docs)以获得优化的导航，可发现性和可读性。*
+*访问[codechina.csdn.net/docs](https://codechina.csdn.net/codechina/help-docs)以获得优化的导航，可发现性和可读性。*
 
 ## 概览[](#概览 "Permalink")
 
@@ -26,19 +26,19 @@
 
 | 计划主题 | 描述 |
 | --- | --- |
-| [Burndown Charts](user/project/milestones/burndown_charts.html) | 在特定的里程碑中观察项目的进度 |
-| [讨论](user/discussions/index.html) | 问题，提交和合并请求中的线程，注释和可解决线程 |
-| [截止日期](user/project/issues/due_dates.html) | 跟踪发行期限|
-| [Epics](user/group/epics/index.html) | 跟踪共享主题的问题组|
-| [问题](user/project/issues/index.html) ，包括[机密问题](user/project/issues/confidential_issues.html) ，[发布和合并请求模板](user/project/description_templates.html) ，和[移动的问题](user/project/issues/managing_issues.html#moving-issues) | 项目问题并限制对问题的访问，并创建用于提交新问题和合并请求的模板。 此外，在项目之间转移问题。|
-| [标签](user/project/labels.html) | 分类问题或使用描述性标签合并请求|
-| [里程碑](user/project/milestones/index.html) | 设置发布问题和合并请求的里程碑，并带有可选的截止日期|
-| [看板](user/project/issue_board.html) | 在 Scrum 或看板上显示问题|
-| [快捷方式](user/project/quick_actions.html) | 针对问题或合并请求的常见操作的快捷方式，而无需单击按钮或在WEB界面中使用下拉菜单。 |
-| [关联 Issue](user/project/issues/related_issues.html) | 在问题之间建立关系. |
-| [Roadmap](user/group/roadmap/index.html) | 可视化史诗般的时间表 |
-| [时间跟踪](user/project/time_tracking.html) | 跟踪花费在问题和合并请求上的时间 |
-| [代办事项](user/todos.html) | 通过在简单仪表板上显示的时间顺序列表，跟踪需要注意的工作。 |
+| Burndown Charts| 在特定的里程碑中观察项目的进度 |
+| [讨论](/docs/user/discussions.md) | 问题，提交和合并请求中的线程，注释和可解决线程 |
+| [截止日期](/docs/user/project/issues/due-date.md) | 跟踪发行期限|
+| Epics | 跟踪共享主题的问题组|
+| [ Issue ](/docs/user/project/issues.md) ，包括[机密问题](/docs/user/project/issues/confidential.md) ，[发布和合并请求模板](/docs/user/project/discription-template.md) ，和[移动的问题](/docs/user/project/issues/manage.md#moving-issues) | 项目问题并限制对问题的访问，并创建用于提交新问题和合并请求的模板。 此外，在项目之间转移问题。|
+| [标签](/docs/user/project/label.md) | 分类问题或使用描述性标签合并请求|
+| [里程碑](/docs/user/project/milestone.md) | 设置发布问题和合并请求的里程碑，并带有可选的截止日期|
+| [看板](/docs/user/project/kanban.md)) | 在 Scrum 或看板上显示问题|
+| [快捷方式](/docs/user/shortcutkey.md) | 针对问题或合并请求的常见操作的快捷方式，而无需单击按钮或在WEB界面中使用下拉菜单。 |
+| [关联 Issue](/docs/user/project/issues/crosslinking.md) | 在问题之间建立关系. |
+| Roadmap | 可视化史诗般的时间表 |
+| [时间跟踪](/docs/user/project/time-track.md) | 跟踪花费在问题和合并请求上的时间 |
+| [代办事项](/docs/user/todo.md) | 通过在简单仪表板上显示的时间顺序列表，跟踪需要注意的工作。 |
 
 [返回概览](#概览)
 
@@ -54,17 +54,17 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 创建主题-项目和组 | 描述 |
 | --- | --- |
-| [全局搜索](user/search/advanced_global_search.html) | 利用 Elasticsearch 在整个 CODEChina 实例上进行更快，更高级的代码搜索|
-| [语法检索](user/search/advanced_search_syntax.html) | 使用高级查询获得更具针对性的搜索结果|
-| [Contribution analytics](user/group/contribution_analytics/index.html) | 请参阅小组贡献者的详细统计信息|
-| [创建](basics/create-project.html)并[fork](basics/fork-project.html)项目，以及[导入项目](user/project/settings/import_export.html) [](user/project/settings/import_export.html) [实例之间](user/project/settings/import_export.html) | 创建，复制和移动项目 |
-| [锁定文件](user/project/file_lock.html) | 锁定文件以避免合并冲突 |
-| [组织](user/group/index.html) and [子组织](user/group/subgroups/index.html) | 分组组织您的项目 |
-| [Issue 分析](user/group/issues_analytics/index.html) | 检查每月创建了多少个问题|
-| [项目](user/project/index.html) ，包括[项目访问](public_access/public_access.html)和[设置](user/project/settings/index.html) | 托管源代码，并控制项目的可见性和设置配置。|
-| [搜索](/user/search) | 搜索问题，合并请求，项目，组和待办事项。|
-| [Web IDE](user/project/web_ide/index.html) | 在 WebIDE 中编辑文件|
-| [Wikis](user/project/wiki/index.html) | 使用内置的 Wiki 来管理您的文档|
+| 全局搜索 | 利用 Elasticsearch 在整个 CODEChina 实例上进行更快，更高级的代码搜索|
+| 语法检索 | 使用高级查询获得更具针对性的搜索结果|
+| Contribution analytics | 请参阅小组贡献者的详细统计信息|
+| [创建](/docs/basic/create-project.md)并 fork 项目，以及[导入项目](/docs/user/project/import.md) | 创建，复制和移动项目 |
+| 锁定文件 | 锁定文件以避免合并冲突 |
+| [组织](/docs/user/org.md) and [子组织](/docs/user/org/sub_org.md) | 分组组织您的项目 |
+| Issue 分析 | 检查每月创建了多少个问题|
+| [项目](/docs/user/project.md) ，包括项目访问和[设置](/docs/user/project/settings.md) | 托管源代码，并控制项目的可见性和设置配置。|
+| [搜索](/docs/img/add_user_search_people.png)) | 搜索问题，合并请求，项目，组和待办事项。|
+| [Web IDE](/docs/user/project/webide.mdl) | 在 WebIDE 中编辑文件|
+| [Wikis](/docs/user/project/wiki.md) | 使用内置的 Wiki 来管理您的文档|
 
 [返回概览](#概览)
 
@@ -72,18 +72,18 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 创建主题-代码仓库 | 描述 |
 | --- | --- |
-| [分支](user/project/repository/branches/index.html)和[默认分支](user/project/repository/branches/index.html#default-branch) | 如何在 CODEChina 中使用分支 |
-| [提交](user/project/repository/index.html#commits) and [署名提交](user/project/repository/gpg_signed_commits/index.html) | 处理提交，并使用 GPG 对您的提交进行签名。 |
-| [创建分支](user/project/repository/web_editor.html#create-a-new-branch) ， [创建](user/project/repository/web_editor.html#create-a-file)并[上传](user/project/repository/web_editor.html#upload-a-file)文件，并[创建目录](user/project/repository/web_editor.html#create-a-directory) | 创建分支，创建和上传文件以及创建目录。|
-| [删除已合并的分支](user/project/repository/branches/index.html#delete-merged-branches) | 合并更改后的批量删除分支|
-| [文件模板](user/project/repository/web_editor.html#template-dropdowns) | 通用文件的文件模板 |
-| [文件](user/project/repository/index.html#files) | 文件管理 |
-| [Jupyter Notebook 文件](user/project/repository/jupyter_notebooks/index.html#jupyter-notebook-files) | 对`.ipynb`文件的支持 |
-| [保护分支](user/project/protected_branches.html) | 使用受保护的分支 |
-| [推送规则](push_rules/push_rules.html) | 对项目推送的附加控制 |
-| [代码仓库](user/project/repository/index.html) | 在网页中管理源代码仓库 |
-| [镜像代码仓库](user/project/repository/repository_mirroring.html) | 推入或拉出外部的代码仓库 |
-| [处理合并请求](user/project/repository/web_editor.html#tips) | 在提交时启动合并请求 |
+| [分支](/docs/user/project/repo/branches.md)和[默认分支](/docs/user/project/repo/branches.md#default-branch) | 如何在 CODEChina 中使用分支 |
+| [提交](/docs/user/project/repo.md#commits) and [署名提交](/docs/user/project/repo/gpg-sign.md) | 处理提交，并使用 GPG 对您的提交进行签名。 |
+| [创建分支](/docs/user/project/repo/web-editor.md#create-a-new-branch) ， [创建](/docs/user/project/repo/web-editor.md#create-a-file)并[上传](/docs/user/project/repo/web-editor.md#upload-a-file)文件，并[创建目录](/docs/user/project/repo/web-editor.md#create-a-directory) | 创建分支，创建和上传文件以及创建目录。|
+| [删除已合并的分支](/docs/user/project/repo/branches.md#delete-merged-branches) | 合并更改后的批量删除分支|
+| [文件模板](/docs/user/project/repo/web-editor.md#template-dropdowns) | 通用文件的文件模板 |
+| [文件](/docs/user/project/repo.md#files) | 文件管理 |
+| Jupyter Notebook 文件 | 对`.ipynb`文件的支持 |
+| [保护分支](/docs/user/project/protected-branch.md) | 使用受保护的分支 |
+| 推送规则| 对项目推送的附加控制 |
+| [代码仓库](/docs/user/project/repo.md) | 在网页中管理源代码仓库 |
+| 镜像代码仓库 | 推入或拉出外部的代码仓库 |
+| [处理合并请求](/docs/user/project/repo/web-editor.md#tips) | 在提交时启动合并请求 |
 
 [返回概览](#概览)
 
@@ -91,11 +91,11 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 创建主题-合并请求 | 描述 |
 | --- | --- |
-| [在本地处理合并请求](user/project/merge_requests/reviewing_and_managing_merge_requests.html#checkout-merge-requests-locally) | 在本地处理合并请求的提示|
-| [Cherry-pick](user/project/merge_requests/cherry_pick_changes.html) | 对更改进行 Cherry Pick |
-| [Merge request thread resolution](user/discussions/index.html#moving-a-single-thread-to-a-new-issue) | 解析线程，将合并请求中的线程移至问题，并且仅在解决所有线程后才允许合并请求。 |
-| [合并请求](user/project/merge_requests/index.html) | 合并请求管理 |
-| [草稿合并请求](user/project/merge_requests/work_in_progress_merge_requests.html) | 防止合并草稿合并请求 |
+| 在本地处理合并请求 | 在本地处理合并请求的提示|
+| [Cherry-pick](/docs/user/project/merge-request/cherry-pick.md) | 对更改进行 Cherry Pick |
+| [Merge request thread resolution](/docs/user/discussions.md#moving-a-single-thread-to-a-new-issue) | 解析线程，将合并请求中的线程移至问题，并且仅在解决所有线程后才允许合并请求。 |
+| [合并请求](/docs/user/project/merge-request.md) | 合并请求管理 |
+| [草稿合并请求](/docs/user/project/merge-request/draft.md) | 防止合并草稿合并请求 |
 
 [返回概览](#概览)
 
@@ -106,9 +106,9 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 主题 | 描述 |
 | --- | --- |
-| [Basics guides](basics/README.html) | 开始在命令行和 CODEChina 上工作 |
-| [Workflow overview]() | 利用最佳的工作流程增强您的工作流程 |
-| [Markdown](user/markdown.html) | 高级格式化系统（Markdown） |
+| Basics guides | 开始在命令行和 CODEChina 上工作 |
+| Workflow overview | 利用最佳的工作流程增强您的工作流程 |
+| [Markdown](/docs/user/markdown.md) | 高级格式化系统（Markdown） |
 
 [返回概览](#概览)
 
@@ -118,9 +118,9 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 主题 | 描述 |
 | --- | --- |
-| [用户账号](user/profile/index.html) | 管理您的帐户 |
-| [账号验证](topics/authentication/index.html) | 具有两因素身份验证的帐户安全性，设置您的 SSH 密钥，并部署密钥以安全地访问您的项目。 |
-| [用户权限](user/permissions.html) | 了解项目中的每个角色可以做什么 |
+| [用户账号](/docs/user/account.md) | 管理您的帐户 |
+| 账号验证 | 具有两因素身份验证的帐户安全性，设置您的 SSH 密钥，并部署密钥以安全地访问您的项目。 |
+| [用户权限](/docs/user/permissions.md) | 了解项目中的每个角色可以做什么 |
 
 [返回概览](#概览)
 
@@ -130,9 +130,9 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 主题 | 描述 |
 | --- | --- |
-| [Git](topics/git/index.html) | Git 入门，分支策略，Git LFS 和高级用法 |
+| Git | Git 入门，分支策略，Git LFS 和高级用法 |
 | [Git cheat sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf) | 下载描述最常用的 Git 操作的 PDF|
-| [Work Flow](topics/flow.html) | 使用 Work Flow 策略探索 Git 的精华 |
+| Work Flow| 使用 Work Flow 策略探索 Git 的精华 |
 
 [返回概览](#概览)
 
@@ -142,8 +142,8 @@ CODEChina 存储库随附分支工具和访问控制，可为项目和代码的�
 
 | 主题 | 描述 |
 | --- | --- |
-| [导入项目](user/project/import/index.html) | 从 GitHub，Bitbucket，GitLab.com，FogBugz 和 SVN 导入项目 |
-| [从SVN迁移](user/project/import/svn.html) | 将 SVN 存储库转换为 Git 和 CODEChina |
+| [导入项目](/docs/user/project/import.md) | 从 GitHub，Bitbucket，GitLab.com，FogBugz 和 SVN 导入项目 |
+| 从SVN迁移 | 将 SVN 存储库转换为 Git 和 CODEChina |
 
 [返回概览](#概览)
 
@@ -155,8 +155,8 @@ CODEChina 是开源的，您可以通过以下方式为我们的开源社区做�
 
 | 主题 | 描述 |
 | --- | --- |
-| [开发](development/README.html) | 如何在开发上做贡献 |
-| [协议](legal/README.html) | 贡献者许可协议 |
-| [文档](development/documentation/index.html) | 如何在文档上做贡献|
+| 开发 | 如何在开发上做贡献 |
+| 协议 | 贡献者许可协议 |
+| 文档 | 如何在文档上做贡献|
 
 [返回概览](#概览)

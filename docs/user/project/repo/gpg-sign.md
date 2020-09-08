@@ -179,7 +179,7 @@ git config --global commit.gpgsign true
 
 2.  通过单击 GPG 徽章，将显示签名的详细信息
 
-    [![Signed commit with verified signature](/docs/img/project_signed_commit_unverified_signature.png)](img/project_signed_commit_unverified_signature.png)
+    [![Signed commit with verified signature](/docs/img/project_signed_commit_unverified_signature.png)](/docs/img/project_signed_commit_unverified_signature.png)
 
 ## 撤销 GPG 密钥[](#revoking-a-gpg-key "Permalink")
 

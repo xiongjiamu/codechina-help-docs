@@ -1,6 +1,6 @@
 # Issue 排序[](#Issue排序 "Permalink")
 
-您可以通过多种方式对 Issue 列表进行排序，包括按 Issue 创建日期、里程碑、截止日期等进行排序。可用的排序选项可以根据列表的上下文进行更改。有关按发布优先级排序的信息，请参见[标签优先级](../labels.html#label-priority)。
+您可以通过多种方式对 Issue 列表进行排序，包括按 Issue 创建日期、里程碑、截止日期等进行排序。可用的排序选项可以根据列表的上下文进行更改。有关按发布优先级排序的信息，请参见[标签优先级](/docs/user/project/label.md#label-priority)。
 
 在项目的 Issue 列表清单中，也可以手动对 Issue 进行排序，类似于看板中的手动排序。
 

@@ -10,9 +10,9 @@
 
 除了标准的评论形式外，您还可以选择以话题讨论的方式创建评论， 收到回复后，评论也将是[话题讨论](#start-a-thread-by-replying-to-a-standard-comment) 的形式。
 
-评论区域支持[Markdown](../markdown.html)和[快速操作](../project/quick_actions.html) ， 您可以随时编辑自己的评论，拥有" [maintainer"](../permissions.html)或更高[权限的](../permissions.html)用户也可以编辑其他人的评论。
+评论区域支持[Markdown](/docs/user/markdown.md)和[快速操作](/docs/user/project/quick-actions.md) ， 您可以随时编辑自己的评论，拥有" [maintainer"](/docs/user/permissions.md)或更高权限的用户也可以编辑其他人的评论。
 
-您还可以通过回复评论通知电子邮件来回复评论，回复标准评论会创建另一个标准评论。回复主题评论会在主题中创建回复，电子邮件回复支持[Markdown](../markdown.html)和[快速操作](../project/quick_actions.html)。
+您还可以通过回复评论通知电子邮件来回复评论，回复标准评论会创建另一个标准评论。回复主题评论会在主题中创建回复，电子邮件回复支持[Markdown](/docs/user/markdown.md)和[快速操作](/docs/user/project/quick-actions.md)。
 
 **注意：**每个对象最多只能有 5,000 条评论，例如：issue，epic 及合并请求。
 
@@ -37,7 +37,7 @@
 
 2.  进入选定的提交，单击" **更改"**选项卡（在该选项卡中，将仅显示与所选提交不同的内容），并提交评论
 
-    [![Commit diff discussion in merge request context](/../../docs/img/commit_comment_mr_context.png)](img/commit_comment_mr_context.png)
+    [![Commit diff discussion in merge request context](/docs/img/commit_comment_mr_context.png)](/docs/img/commit_comment_mr_context.png)
 
 3.  以这种方式创建的任何讨论都将显示在合并请求的"**讨论"**选项卡中，并且可以解决
 
@@ -58,17 +58,17 @@
 
 您可以通过单击**讨论**底部的" **解决讨论"**按钮将其标记为已解决。
 
-[!["Resolve thread" button](/../../docs/img/resolve_thread_button.png)](img/resolve_thread_button.png)
+[!["Resolve thread" button](/docs/img/resolve_thread_button.png)](/docs/img/resolve_thread_button.png)
 
 或者，您可以将每个评论单独标记为已解决。
 
-[!["Resolve comment" button](/../../docs/img/resolve_comment_button.png)](img/resolve_comment_button.png)
+[!["Resolve comment" button](/docs/img/resolve_comment_button.png)](/docs/img/resolve_comment_button.png)
 
 ### 在合并请求中所有未解决讨论转为 Issue[](#move-all-unresolved-threads-in-a-merge-request-to-an-issue "Permalink")
 
 要在新 Issue 中解决当前自合并请求中的所有未解决的讨论时，可以单击" **再新问题中解决所有讨论"**的按钮。
 
-[![Open new issue for all unresolved threads](/../../docs/img/btn_new_issue_for_all_threads.png)](img/btn_new_issue_for_all_threads.png)
+[![Open new issue for all unresolved threads](/docs/img/btn_new_issue_for_all_threads.png)](/docs/img/btn_new_issue_for_all_threads.png)
 
 或者，当您的项目仅[在解决所有讨论](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved)后才接受合并请求[时](#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved) ，在合并请求部件中会有一个创建一个新 Issue 以便稍后解决的选项。
 
@@ -95,7 +95,7 @@
 
 导航到您的项目的设置页面，选中" **使用推送更改的行上**的**自动解析合并请求差异线程"**复选框，然后单击" **保存"**以使更改生效.
 
-[![Automatically resolve merge request diff threads when they become outdated](img/a283d966822ac6a760d1a650273fbb3b.png)](img/automatically_resolve_outdated_discussions.png)
+[![Automatically resolve merge request diff threads when they become outdated](/docs/img/a283d966822ac6a760d1a650273fbb3b.png)](/docs/img/automatically_resolve_outdated_discussions.png)
 
 从现在开始，如果推送使 diff 部分过时，默认情况下将解决 diff 上的所有线程. 不变的线上线程和顶级可解析线程不会自动解析.
 
@@ -146,6 +146,6 @@
 *   **完成审阅** ：提交**审阅中的**所有评论，使其他用户可以看到它们
 *   **立即添加评论** ：提交常规评论，而不是审阅的一部分
 
-您可以在评论中使用[快速操作](../project/quick_actions.html) ， 评论也将会显示提交评论后即将执行的操作。
+您可以在评论中使用[快速操作](/docs/user/project/quick-actions.md) ，评论也将会显示提交评论后即将执行的操作。
 
 要向评论添加更多评论，请照常开始写评论，然后单击**添加到评论**按钮，这会将评论添加到评论中。

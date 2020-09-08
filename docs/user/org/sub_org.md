@@ -6,9 +6,9 @@
 
 *   **独立的子组织** 由于每个组都有自己的可见性级别，因此您可以在同一保护范围内创建不同子组织以满足您不同的使用目的；
 *   **组织大型项目** 对于大型项目，子组织可能会更容易分隔源代码的权限
-*   **使管理人员和控制可见性变得更加容易** 根据人们的组织[成员身份](#成员身份)赋予他们不同的[权限](../../permissions.html#group-members-permissions) 
+*   **使管理人员和控制可见性变得更加容易** 根据人们的组织[成员身份](#成员身份)赋予他们不同的[权限](/docs/user/permissions.md#group-members-permissions) 
 
-有关组织和项目中允许的权限的更多信息，请参考[可见性级别](../../../development/permissions.html#general-permissions) 。
+有关组织和项目中允许的权限的更多信息，请参考[可见性级别](/docs/user/permissions.md#general-permissions) 。
 
 ## 概览[](#概览 "Permalink")
 
@@ -41,19 +41,15 @@
 
 要在组织中创建子组织，您必须是该组织的所有者或维护者，具体取决于该组织的设置（默认情况下，允许所有者和维护者创建子组）。
 
-有关权限的更多信息，请检查[权限表](../../permissions.html#group-members-permissions) 。有关不允许用作组名的单词列表，请参见[保留名称](../../reserved_names.html) .
+有关权限的更多信息，请检查[权限表](/docs/user/permissions.md) 。有关不允许用作组名的单词列表，请参见[保留名称](/docs/user/reserved.md) 。
 
 如果用户明确地作为所有者（或维护者，如果启用了此设置）被添加到父组织中，则用户始终可以创建子组，即使管理员在其组织设置中禁用了组创建也是如此。
 
 您可以通过以下操作创建一个子组织：
 
 1.  在组织详情页中，展开右上角**新建项目**旁的下拉按钮，选择**新建子组织** ，然后单击 **新建子组**按钮；
-
-    [![Subgroups page](img/c3c27ff673c33bcd50004c2adb617d5f.png)](img/create_subgroup_button.png)
-
+    
 2.  像平常一样直接创建一个新组织。 需要注意的是，父组织名称空间在 **组路径**下是不可修改的，但 可见性级别可以与父组织不同；
-
-    [![Subgroups page](img/7fb24fed9f39dcdabb530523bcb8dc08.png)](img/create_new_group.png)
 
 3.  单击**创建组织**按钮
 
@@ -64,7 +60,7 @@
 
 成员的组权限只能由所有者更改，您可以通过查看组织的**组织设置-组织成员设置**页面来确定成员是否从父组织继承了权限。
 
-[![Group members page](img/e18ff80d06980688066f9ec9404bd2da.png)](img/group_members.png)
+[![Group members page](/docs/img/group_members.png)](/docs/img/group_members.png)
 
 从上图我们可以了解到：
 
@@ -77,13 +73,9 @@
 
 您可以使用右侧的下拉列表过滤此列表：
 
-[![Group members filter](img/8215c374294289cd2bd24399439403fd.png)](img/group_members_filter_v12_6.png)
-
 *   **仅显示直接成员**仅显示 Administrator 和 User3，因为这是属于`four`组的唯一用户
 *   **仅显示继承的成员**将显示 User0，User1 和 User2，无论层次结构上方的哪个组都可以作为继承权限的来源
 
 ## 提及子组织[](#提及子组织 "Permalink")
 
-在Issue，提交和合并请求中提及组织（ `@group` ）将通知该组的所有成员。当有了子组织后，如果您想拆分组织的结构，将有更精细的支持。提及方式与以前一样，您可以选择要通知的人群.
-
-[![Mentioning subgroups](img/0d1089161431c5f21751458027d84535.png)](img/mention_subgroups.png)
+在Issue，提交和合并请求中提及组织（ `@group` ）将通知该组的所有成员。当有了子组织后，如果您想拆分组织的结构，将有更精细的支持。提及方式与以前一样，您可以选择要通知的人群。

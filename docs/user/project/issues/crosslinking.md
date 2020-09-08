@@ -32,4 +32,4 @@ git commit -m "this is my commit message. Related to https://codechina.csdn.net/
 
 在合并请求中提及 Issue 与在 Issue 中关联是一样的步骤。
 
-当您在合并请求说明中提到 Issue 时，它就会[将 Issue 和合并请求链接在一起](#from-related-issues)。此外，您还可以[将 Issue 设置](managing_issues.html#closing-issues-automatically)为在合并请求合并后立即[自动关闭](managing_issues.html#closing-issues-automatically) 。
+当您在合并请求说明中提到 Issue 时，它就会[将 Issue 和合并请求链接在一起](#from-related-issues)。此外，您还可以[将 Issue 设置](/docs/user/project/issues/manage.md#closing-issues-automatically)为在合并请求合并后立即[自动关闭](/docs/user/project/issues/manage.md#closing-issues-automatically) 。

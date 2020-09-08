@@ -78,7 +78,7 @@
 
 ### Web IDE[](#web-ide "Permalink")
 
-使用[Web IDE](project/web_ide/index.html)编辑文件时，可以使用以下快捷方式：
+使用[Web IDE](/docs/user/project/webide.md)编辑文件时，可以使用以下快捷方式：
 
 | 快捷键 | 说明 |
 | --- | --- |
@@ -87,7 +87,7 @@
 
 ### 分支图[](#repository-graph "Permalink")
 
-以下快捷键在查看项目[分支图](project/repository/index.html#repository-graph)页面时可用（导航至**代码> 分支图** ）：
+以下快捷键在查看项目[分支图](/docs/user/project/repo.md#repository-graph)页面时可用（导航至**代码> 分支图** ）：
 
 | 快捷键 | 说明 |
 | --- | --- |
@@ -100,7 +100,7 @@
 
 ### Wiki[](#wiki-pages "Permalink")
 
-在查看[Wiki](project/wiki/index.html)时，可以使用以下快捷键：
+在查看[Wiki](/docs/user/project/wiki.md)时，可以使用以下快捷键：
 
 | 快捷键 | 说明 |
 | --- | --- |
@@ -108,7 +108,7 @@
 
 ### 搜索过滤[](#filtered-search "Permalink")
 
-以下快捷键在使用[搜索过滤](search/index.html)时可用：
+以下快捷键在使用[搜索过滤](/docs/user/search.md))时可用：
 
 | 快捷键 | 说明 |
 | --- | --- |
@@ -117,7 +117,7 @@
 
 ## Epics[](#epics-ultimate "Permalink")
 
-以下快捷键在查看[Epics](group/epics/index.html)时可用：
+以下快捷键在查看 Epics 时可用：
 
 | 快捷键 | 说明 |
 | --- | --- |

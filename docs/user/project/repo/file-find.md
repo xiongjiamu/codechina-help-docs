@@ -24,4 +24,4 @@
 
 **提示：**要缩小搜索范围，请在搜索词中包含`/` .
 
-[![Find file button](img/file_finder_find_file_v12_10.png)](img/file_finder_find_file_v12_10.png)
+[![Find file button](/docs/img/file_finder_find_file_v12_10.png)](/docs/img/file_finder_find_file_v12_10.png)

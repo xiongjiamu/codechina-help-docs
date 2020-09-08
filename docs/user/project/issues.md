@@ -91,6 +91,6 @@ Issue 包含各种内容和元数据，从而在使用方式上具有很大的�
 
 ## 其他 Issue 操作[](#other-issue-actions "Permalink")
 
-*   [从模板创建 Issue](/docs/user/project/discription-template.md#using-the-templates)
+*   [从模板创建 Issue](/docs/user/project/description-template.md#using-the-templates)
 *   [设置截止日期](/docs/user/project/issues/due-date.md)
 *   [批量编辑问题](/docs/user/project/bulk-edit.md)——从 Issue 列表中选择多个 Issue，以批量更改其状态，指派人，里程碑或标签。

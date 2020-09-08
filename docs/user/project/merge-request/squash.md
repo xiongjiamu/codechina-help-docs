@@ -23,8 +23,6 @@
 
 可以在合并合并请求之前对其进行自定义。
 
-[![A squash commit message editor](img/618ce3d47266d9b45262489065b68cf7.png)](img/squash_mr_message.png)
-
 **注意：**在此示例中，压缩的提交之后是合并提交，因为此示例代码仓库的合并方法使用了合并提交。
 
 Squash 也适用于快进合并策略，有关更多详细信息，请参见[压缩和快进合并](#squash-and-fast-forward-merge) 。

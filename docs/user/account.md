@@ -14,11 +14,11 @@
 *   更新您的个人信息
 *   为您的个人资料设置[自定义状态](#current-status)
 *   管理您的个人资料的[提交电子邮件](#commit-email)
-*   管理[个人访问令牌](personal_access_tokens.html)以通过 API 和授权的应用程序访问您的帐户
-*   选择用于[通知](notifications.html) ，基于 Web 的提交并显示在您的公开个人资料上的电子邮件
-*   管理[SSH 密钥](../../ssh/README.html)以通过 SSH 访问您的帐户
-*   管理您的[首选项](preferences.html#syntax-highlighting-theme)
-*   [查看您的活动会话](active_sessions.html)并在必要时撤消其中的任何一个
+*   管理[个人访问令牌](/docs/user/profile/token.md)以通过 API 和授权的应用程序访问您的帐户
+*   选择用于[通知](/docs/user/account/email-notify.md) ，基于 Web 的提交并显示在您的公开个人资料上的电子邮件
+*   管理[SSH 密钥](/docs/ssh.md)以通过 SSH 访问您的帐户
+*   管理您的[首选项](/docs/user/profile/preferences.md#syntax-highlighting-theme)
+*   查看您的活动会话并在必要时撤消其中的任何一个
 *   访问认证日志，这是涉及您帐户的重要事件的安全日志
 
 ## 当前状态[](#current-status "Permalink")
