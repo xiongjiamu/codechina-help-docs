@@ -4,7 +4,7 @@
 
 您可以设置您的项目为[公开](../../public_access/public_access.html)或[私有](../../public_access/public_access.html)，我们也不限制您创建的私有项目数量。
 
-## 项目功能[](#项目功能 "Permalink")
+## 项目功能[](#projects-features "Permalink")
 
 创建项目时，您可以使用众多功能：
 
