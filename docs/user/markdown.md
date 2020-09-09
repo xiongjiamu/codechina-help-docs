@@ -181,7 +181,7 @@ end
 
 > 如果未正确呈现，请[在 GitLab 本身中查看它](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#emoji) .
 
-```markdown
+```
 Sometimes you want to :monkey: around a bit and add some :star2: to your :speech_balloon:. Well we have a gift for you:
 :zap: You can use emoji anywhere GFM is supported. :v:
 You can use it to point out a :bug: or warn about :speak_no_evil: patches. And if someone improves your really :snail: code, send them some :birthday:. People will :heart: you for that.
@@ -209,7 +209,7 @@ Front matter 是 Markdown 文档开头，内容之前的元数据。 静态站�
 
 *   YAML（ `---` ）：
 
-```markdown
+```
     ---
     title: About Front Matter
     example:
@@ -219,30 +219,30 @@ Front matter 是 Markdown 文档开头，内容之前的元数据。 静态站�
 
 *   TOML（ `+++` ）：
 
-    ```markdown
-    +++
-    title = "About Front Matter"
-    [example]
-    language = "toml"
-    +++ 
-    ```
+```
++++
+title = "About Front Matter"
+[example]
+language = "toml"
++++ 
+```
 
 *   JSON（ `;;;` ）：
 
-    ```markdown
-    ;;;
-        { 
-        "title":  "About Front Matter"  
-        "example":  {
-              "language":  "json"  
-        }  
-        }
-    ;;; 
+```
+;;;
+    { 
+    "title":  "About Front Matter"  
+    "example":  {
+          "language":  "json"  
+    }  
+    }
+;;; 
     ```
 
 通过向任何现有定界符添加说明符来支持其他语言， 例如：
 
-```markdown
+```
 ---php
 $title = "About Front Matter";
 $example = array(
@@ -305,7 +305,8 @@ $example = array(
 ````markdown
 This math is inline $`a^2+b^2=c^2`$.
 This is on a separate line
-​```math a^2+b^2=c^2
+```
+math a^2+b^2=c^2
 ```
 ````
 
@@ -313,7 +314,7 @@ This is on a separate line
 
 这是单独的一行：
 
-​```markdown
+```
 a^2+b^2=c^2
 ```
 
@@ -365,7 +366,7 @@ GFM 将识别以下内容：
 
 要创建任务列表，请添加特殊格式的 Markdown 列表， 您可以使用无序列表或有序列表：
 
-```markdown
+```
 - [x] Completed task
 - [ ] Incomplete task
   - [ ] Sub-task 1
@@ -391,7 +392,7 @@ GFM 将识别以下内容：
 
 通过在标记行上添加`[[_TOC_]]`标记，您可以将目录添加到 Markdown 文件，Wiki 页面或发布/合并请求描述中。 它将显示为链接到各种标题的无序列表。
 
-```markdown
+```
 This is an intro sentence to my Wiki page.
 [[_TOC_]]
 ## My first heading
