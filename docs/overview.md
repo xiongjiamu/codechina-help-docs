@@ -28,7 +28,7 @@
 | [讨论](/docs/user/discussions.md) | 问题，提交和合并请求中的线程，注释和可解决线程 |
 | [截止日期](/docs/user/project/issues/due-date.md) | 跟踪发行期限|
 | Epics | 跟踪共享主题的问题组|
-| [ Issue ](/docs/user/project/issues.md) ，包括[机密问题](/docs/user/project/issues/confidential.md) ，[发布和合并请求模板](/docs/user/project/discription-template.md) ，和[移动的问题](/docs/user/project/issues/manage.md#moving-issues) | 项目问题并限制对问题的访问，并创建用于提交新问题和合并请求的模板。 此外，在项目之间转移问题|
+| [ Issue ](/docs/user/project/issues.md) ，包括[机密问题](/docs/user/project/issues/confidential.md) ，[发布和合并请求模板](/docs/user/project/description-template.md) ，和[移动的问题](/docs/user/project/issues/manage.md#moving-issues) | 项目问题并限制对问题的访问，并创建用于提交新问题和合并请求的模板。 此外，在项目之间转移问题|
 | [标签](/docs/user/project/label.md) | 分类问题或使用描述性标签合并请求|
 | [里程碑](/docs/user/project/milestone.md) | 设置发布问题和合并请求的里程碑，并带有可选的截止日期|
 | [看板](/docs/user/project/kanban.md) | 在 Scrum 或看板上显示问题|
