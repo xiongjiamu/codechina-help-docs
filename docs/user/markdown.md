@@ -238,7 +238,7 @@ language = "toml"
     }  
     }
 ;;; 
-    ```
+```
 
 通过向任何现有定界符添加说明符来支持其他语言， 例如：
 
@@ -411,7 +411,7 @@ Second section content.
 
 该代码段将链接到 Wiki 根目录下的`documentation`页面：
 
-```markdown
+```
 [Link to Documentation](documentation) 
 ```
 
@@ -421,7 +421,7 @@ Second section content.
 
 如果下面的代码段放在`<your_wiki>/documentation/related`的页面上，它将链接到`<your_wiki>/documentation/file.md` ：
 
-```markdown
+```
 [Link to File](file.md) 
 ```
 
@@ -431,25 +431,25 @@ Second section content.
 
 如果此代码段放在`<your_wiki>/documentation/main`的页面上，它将链接到`<your_wiki>/documentation/related` ：
 
-```markdown
+```
 [Link to Related Page](./related) 
 ```
 
 如果此代码段放在`<your_wiki>/documentation/related/content`的页面上，它将链接到`<your_wiki>/documentation/main` ：
 
-```markdown
+```
 [Link to Related Page](../main) 
 ```
 
 如果此代码段放在`<your_wiki>/documentation/main`的页面上，它将链接到`<your_wiki>/documentation/related.md` ：
 
-```markdown
+```
 [Link to Related Page](./related.md) 
 ```
 
 如果此代码段放在`<your_wiki>/documentation/related/content`的页面上，它将链接到`<your_wiki>/documentation/main.md` ：
 
-```markdown
+```
 [Link to Related Page](../main.md) 
 ```
 
@@ -459,13 +459,13 @@ Second section content.
 
 该代码段链接到`<wiki_root>/documentation` ：
 
-```markdown
+```
 [Link to Related Page](/documentation) 
 ```
 
 该代码段链接到`<wiki_root>/miscellaneous.md` ：
 
-```markdown
+```
 [Link to Related Page](/miscellaneous.md) 
 ```
 
@@ -481,7 +481,7 @@ Second section content.
 
 块引号是突出显示信息（如边注）的简便方法. 它是通过以`>`开头的 blockquote 行来生成的：
 
-```markdown
+```
 > Blockquotes are very handy to emulate reply text.
 > This line is part of the same quote.
 Quote break.
@@ -507,7 +507,7 @@ you can quote that without having to manually prepend `>` to every line!
 
 您可以轻松突出显示应视为代码而非简单文本的任何内容，简单的内联代码很容易用单个反引号`\``突出显示：
 
-```markdown
+```
 Inline `code` has `back-ticks around` it. 
 ```
 
@@ -515,38 +515,39 @@ Inline `code` has `back-ticks around` it.
 
 同样，整个代码块可以用三个反引号（ ````` ），三个波浪号（ `~~~` ）或缩进 4 个或更多的空格来围起来，以实现较大代码体的相似效果。
 
-```markdown
-​```python def function():
+````markdwon
+```python
+def function():
     #indenting works just fine in the fenced code block
     s = "Python code"
     print s
-​``` Using 4 spaces
+``` Using 4 spaces
     is like using
     3-backtick fences. 
 ```
 
-```markdown
+```
 ~~~
 Tildes are OK too.
 ~~~ 
-```
+````
 
 上面的三个示例呈现为：
 
-```markdown
+```
 def function():
     #indenting works just fine in the fenced code block
     s = "Python code"
     print s 
 ```
 
-```markdown
+```
 Using 4 spaces
 is like using
 3-backtick fences. 
 ```
 
-```markdown
+```
 Tildes are OK too. 
 ```
 
@@ -559,15 +560,18 @@ GitLab 使用[Rouge Ruby 库](http://rouge.jneen.net/)在代码块中突出显�
 代码块由带有三个反引号（ ````` ）或三个波浪号（ `~~~` ）的行围起来，并在第一个围栏的末尾标识了语言：
 
 ````markdown
-​```javascript var s = "JavaScript syntax highlighting";
+```javascript
+var s = "JavaScript syntax highlighting";
 alert(s);
 ```
-```python def function():
+```python
+def function():
     #indenting works just fine in the fenced code block
     s = "Python syntax highlighting"
     print s
 ```
-```ruby require 'redcarpet'
+```ruby
+require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
@@ -579,7 +583,7 @@ But let's throw in a <b>tag</b>.
 
 上面的四个示例呈现为：
 
-​```
+```
 var s = "JavaScript syntax highlighting";
 alert(s); 
 ```
@@ -647,7 +651,7 @@ do*this*and*do*that*and*another thing
 
 无论标签名称如何，参考标签的相对顺序都决定了呈现的编号。
 
-参考标记可以使用字母和其他字符. 在解决[此错误](https://gitlab.com/gitlab-org/gitlab/-/issues/24423)之前，请避免在脚注标签名称中使用小写`w`或下划线（ `_` ）.
+参考标记可以使用字母和其他字符. 在解决[此错误](https://gitlab.com/gitlab-org/gitlab/-/issues/24423)之前，请避免在脚注标签名称中使用小写`w`或下划线（ `_` ）。
 
 ```
 A footnote reference tag looks like this: [^1]
