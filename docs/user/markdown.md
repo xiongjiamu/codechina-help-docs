@@ -136,7 +136,7 @@ graph TD;
 ```
 ````
 
-​```mermaid
+```mermaid
 graph TD;
   A-->B;
   A-->C;
@@ -163,7 +163,7 @@ end
 ```
 ````
 
-​```mermaid
+```mermaid
 graph TB
   SubGraph1 --> SubGraph1Flow
   subgraph "SubGraph 1 Flow"
@@ -578,25 +578,25 @@ But let's throw in a <b>tag</b>.
 
 上面的四个示例呈现为：
 
-​```markdown
+​```
 var s = "JavaScript syntax highlighting";
 alert(s); 
 ```
 
-```markdown
+```
 def function():
     #indenting works just fine in the fenced code block
     s = "Python syntax highlighting"
     print s 
 ```
 
-```markdown
+```
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html 
 ```
 
-```markdown
+```
 No language indicated, so no syntax highlighting.
 s = "There is no highlighting for this."
 But let's throw in a <b>tag</b>. 
@@ -608,7 +608,7 @@ But let's throw in a <b>tag</b>.
 
 例如:
 
-```markdown
+```
 Emphasis, aka italics, with *asterisks* or _underscores_
 Strong emphasis, aka bold, with double **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
@@ -648,7 +648,7 @@ do*this*and*do*that*and*another thing
 
 参考标记可以使用字母和其他字符. 在解决[此错误](https://gitlab.com/gitlab-org/gitlab/-/issues/24423)之前，请避免在脚注标签名称中使用小写`w`或下划线（ `_` ）.
 
-```markdown
+```
 A footnote reference tag looks like this: [^1]
 This reference tag is a mix of letters and numbers. [^footnote-42]
 [^1]: This is the text inside a footnote.
@@ -713,7 +713,7 @@ GFM 扩展了标准 Markdown 标准，以便所有 Markdown 呈现的标头都�
 
 使用三个或多个连字符，星号或下划线来创建水平尺非常简单：
 
-```markdown
+```
 Three or more hyphens,
  --- 
 asterisks,
@@ -726,7 +726,7 @@ ___
 
 例如:
 
-```markdown
+```
 Inline-style (hover to see title text):
 ![alt text](img/markdown_logo.png "Title Text")
 Reference-style (hover to see title text):
@@ -764,7 +764,7 @@ Here's a sample audio clip:
 
 有关允许的 HTML 标记和属性的列表，请参见 HTML :: Pipeline 的[SanitizationFilter](https://github.com/jch/html-pipeline/blob/v2.12.3/lib/html/pipeline/sanitization_filter.rb#L42)类的文档. 除了默认`SanitizationFilter`允许列表，GitLab 允许`span` ， `abbr` ， `details`和`summary`元素。
 
-```markdown
+```
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
@@ -775,7 +775,7 @@ Here's a sample audio clip:
 
 仍然可以在 HTML 标记内使用 Markdown，但前提是包含 Markdown 的行分为各自的行:
 
-```markdown
+```
 <dl>
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. HTML tags will work, in most cases.</dd>
@@ -792,7 +792,7 @@ Here's a sample audio clip:
 
 可以使用 HTML 的[`<details>`](https://s0developer0mozilla0org.icopy.site/en-US/docs/Web/HTML/Element/details)和[`<summary>`](https://s0developer0mozilla0org.icopy.site/en-US/docs/Web/HTML/Element/summary)标记折叠内容. 这对于折叠长日志特别有用，因为它们占用更少的屏幕空间。
 
-```markdown
+```
 <p>
 <details>
 <summary>Click this to collapse/fold.</summary>
@@ -810,7 +810,7 @@ These details <em>will</em> remain <strong>hidden</strong> until expanded.
 
 请记住，在`</summary>`标记之后和`</details>`标记之前留空行，如示例所示：
 
-````markdown
+````
 <details>
 <summary>Click this to collapse/fold.</summary>
 These details _will_ remain **hidden** until expanded.
@@ -824,7 +824,7 @@ PASTE LOGS HERE
 
 如果先前的文本以两个换行符结尾，则会插入一个换行符（将开始一个新的段落），例如当您连续两次按`Enter 键`时. 如果仅使用一个换行符（ `按`一次`Enter 键` ），则下一个句子将成为同一段落的一部分. 如果要避免长行换行并使它们易于编辑，这很有用：
 
-```markdown
+```
 Here's a line for us to start with.
 
 This longer line is separated from the one above by two newlines, so it will be a *separate paragraph*.
@@ -843,7 +843,7 @@ GFM 在[处理段落和换行符方面](https://spec.commonmark.org/current/)遵
 
 如果您需要对换行符或换行符进行更多控制，则可以通过以反斜杠或两个或多个空格结束一行来添加单个换行符，连续两个换行符将创建一个新的段落，中间有一个空行：
 
-```markdwon
+```
 First paragraph.
 Another line in the same paragraph.
 A third line in the same paragraph, but this time ending with two spaces.{space}{space}
@@ -858,7 +858,7 @@ A new line due to the previous backslash.
 
 有两种创建链接的方法，即内联样式和引用样式：
 
-```markdown
+```
 - This is an [inline-style link](https://www.google.com)
 - This is a [link to a repository file in the same directory](index.md)
 - This is a [relative link to a readme one directory higher](../README.md)
@@ -888,7 +888,7 @@ Some text to show that the reference links can follow later.
 
 GFM 将自动为您添加到文档中的 URL 设置链接：
 
-```markdown
+```
 - https://www.google.com
 - https://www.google.com
 - ftp://ftp.us.debian.org/debian/
@@ -912,7 +912,7 @@ GFM 将自动为您添加到文档中的 URL 设置链接：
 
 例如:
 
-```markdown
+```
 1. First ordered list item
 2. Another item
  - Unordered sub-list.
@@ -932,7 +932,7 @@ GFM 将自动为您添加到文档中的 URL 设置链接：
 
 对于无序列表，请在无序列表的每一行的开头添加`-` ， `*`或`+` ，然后加上一个空格，但是您不能混合使用它们。
 
-```markdown
+```
 Unordered lists can:
 - use
 - minuses
@@ -952,7 +952,7 @@ They can even:
 
 例如:
 
-```markdown
+```
 1. First ordered list item
 
    Second paragraph of first item.
@@ -995,7 +995,7 @@ while the equation for the theory of relativity is E = mc<sup>2</sup>.
 
 例如:
 
-```markdown
+```
 | header 1 | header 2 | header 3 |
 | ---      |  ------  |---------:|
 | cell 1   | cell 2   | cell 3   |
@@ -1007,7 +1007,7 @@ while the equation for the theory of relativity is E = mc<sup>2</sup>.
 
 **注意：** [在 GitLab 本身中](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/user/markdown.md#tables) ，标题始终在 Chrome 和 Firefox 中左对齐，并在 Safari 中居中。
 
-```markdown
+```
 | Left Aligned | Centered | Right Aligned | Left Aligned | Centered | Right Aligned |
 | :---         | :---:    | ---:          | :----------- | :------: | ------------: |
 | Cell 1       | Cell 2   | Cell 3        | Cell 4       | Cell 5   | Cell 6        |
