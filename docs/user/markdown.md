@@ -127,7 +127,7 @@ GitLab 充分利用了标准（CommonMark）格式，但还包括对 GitLab 用�
 为了生成图表或流程图，您应该在`mermaid`块内编写文本：
 
 ````markdown
-```mermaid
+​```mermaid
 graph TD;
   A-->B;
   A-->C;
@@ -136,7 +136,7 @@ graph TD;
 ```
 ````
 
-```mermaid
+​```mermaid
 graph TD;
   A-->B;
   A-->C;
@@ -147,7 +147,7 @@ graph TD;
 子图也可以使用:
 
 ````markdown
-```mermaid
+​```mermaid
 graph TB
   SubGraph1 --> SubGraph1Flow
   subgraph "SubGraph 1 Flow"
@@ -163,7 +163,7 @@ end
 ```
 ````
 
-```mermaid
+​```mermaid
 graph TB
   SubGraph1 --> SubGraph1Flow
   subgraph "SubGraph 1 Flow"
@@ -313,7 +313,7 @@ This is on a separate line
 
 这是单独的一行：
 
-```markdown
+​```markdown
 a^2+b^2=c^2
 ```
 
@@ -515,7 +515,7 @@ Inline `code` has `back-ticks around` it.
 同样，整个代码块可以用三个反引号（ ````` ），三个波浪号（ `~~~` ）或缩进 4 个或更多的空格来围起来，以实现较大代码体的相似效果。
 
 ```markdown
-```python def function():
+​```python def function():
     #indenting works just fine in the fenced code block
     s = "Python code"
     print s
@@ -578,7 +578,7 @@ But let's throw in a <b>tag</b>.
 
 上面的四个示例呈现为：
 
-```markdown
+​```markdown
 var s = "JavaScript syntax highlighting";
 alert(s); 
 ```
